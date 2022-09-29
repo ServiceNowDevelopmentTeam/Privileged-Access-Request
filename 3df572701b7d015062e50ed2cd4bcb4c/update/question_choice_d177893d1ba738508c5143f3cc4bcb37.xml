@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <misc>0</misc>
+        <order>100</order>
+        <published_ref/>
+        <question display_value="Type of Account (Select all that apply)">e947c53d1ba738508c5143f3cc4bcb30</question>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2021-11-01 14:53:27</sys_created_on>
+        <sys_id>d177893d1ba738508c5143f3cc4bcb37</sys_id>
+        <sys_name>Domain Admin</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Privileged Access Request">3df572701b7d015062e50ed2cd4bcb4c</sys_scope>
+        <sys_update_name>question_choice_d177893d1ba738508c5143f3cc4bcb37</sys_update_name>
+        <text>Domain Admin</text>
+        <value>domain</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=d177893d1ba738508c5143f3cc4bcb37"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>misc</field>
+        <id>d177893d1ba738508c5143f3cc4bcb37</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2021-11-01 14:53:27</sys_created_on>
+        <sys_id>6487893d1ba738508c5143f3cc4bcb3e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2021-11-01 14:53:27</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_misc</field>
+        <id>d177893d1ba738508c5143f3cc4bcb37</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2021-11-01 14:53:27</sys_created_on>
+        <sys_id>e887893d1ba738508c5143f3cc4bcb3d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2021-11-01 14:53:27</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Privileged Access Request">3df572701b7d015062e50ed2cd4bcb4c</claim_owner_scope>
+        <claim_timestamp>182ad3b5a140000001</claim_timestamp>
+        <metadata_update_name>question_choice_d177893d1ba738508c5143f3cc4bcb37</metadata_update_name>
+        <previous_claim_app_version>1.0.12</previous_claim_app_version>
+        <previous_claim_name>Privileged Access Request</previous_claim_name>
+        <previous_claim_scope>3df572701b7d015062e50ed2cd4bcb4c</previous_claim_scope>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2022-08-17 19:15:24</sys_created_on>
+        <sys_id>c3e6d2f61b95d1508c5143f3cc4bcb02</sys_id>
+    </sys_claim>
+</record_update>

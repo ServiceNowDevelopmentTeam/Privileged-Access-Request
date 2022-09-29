@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Privileged Role Request">20f9181c1b09f490e7004229bc4bcb22</catalog_item>
+        <catalog_variable>IO:8fb0a9fd1b2b38508c5143f3cc4bcb71</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2021-11-01 16:47:21</sys_created_on>
+        <sys_id>17816d711b6b38508c5143f3cc4bcb71</sys_id>
+        <sys_name>i_dont_see_what_i_need</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Privileged Access Request">3df572701b7d015062e50ed2cd4bcb4c</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_17816d711b6b38508c5143f3cc4bcb71</sys_update_name>
+        <table/>
+        <ui_policy display_value="if cloud admin is selected">3c4165711b6b38508c5143f3cc4bcb27</ui_policy>
+        <variable>i_dont_see_what_i_need</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Privileged Access Request">3df572701b7d015062e50ed2cd4bcb4c</claim_owner_scope>
+        <claim_timestamp>17f0dd1da3a0000001</claim_timestamp>
+        <metadata_update_name>catalog_ui_policy_action_17816d711b6b38508c5143f3cc4bcb71</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>privliged access request</previous_claim_name>
+        <previous_claim_scope>3df572701b7d015062e50ed2cd4bcb4c</previous_claim_scope>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2022-02-18 17:12:11</sys_created_on>
+        <sys_id>538c3e741bbd015062e50ed2cd4bcbef</sys_id>
+    </sys_claim>
+</record_update>

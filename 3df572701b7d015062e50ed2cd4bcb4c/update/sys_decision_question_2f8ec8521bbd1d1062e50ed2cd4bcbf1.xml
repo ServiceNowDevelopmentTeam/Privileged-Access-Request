@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_question">
+    <sys_decision_question action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer decision_table.answer_table="sys_user_group" name="APV_CyberSecurity">95b214661b99155062e50ed2cd4bcbf4</answer>
+        <condition table="var__m_sys_decision_input_1e3836e91b1389d062e50ed2cd4bcbf0">u_role=d6cd4db11be738508c5143f3cc4bcb86^EQ<item display_table="sys_choice" display_value="Helpdesk Administrator" endquery="false" field="u_role" goto="false" newquery="false" operator="=" or="false" value="d6cd4db11be738508c5143f3cc4bcb86"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <decision_table display_value="Privileged Role Request - Approvers - level 2">1e3836e91b1389d062e50ed2cd4bcbf0</decision_table>
+        <default_answer>false</default_answer>
+        <input_table>var__m_sys_decision_input_1e3836e91b1389d062e50ed2cd4bcbf0</input_table>
+        <label>Privileged Role Request - Approvers - level 2_2100</label>
+        <order>2100</order>
+        <sys_class_name>sys_decision_question</sys_class_name>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2022-09-09 16:34:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2f8ec8521bbd1d1062e50ed2cd4bcbf1</sys_id>
+        <sys_name>Privileged Role Request - Approvers - level 2_2100</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Privileged Access Request" source="3df572701b7d015062e50ed2cd4bcb4c">3df572701b7d015062e50ed2cd4bcb4c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Privileged Access Request">3df572701b7d015062e50ed2cd4bcb4c</sys_scope>
+        <sys_update_name>sys_decision_question_2f8ec8521bbd1d1062e50ed2cd4bcbf1</sys_update_name>
+    </sys_decision_question>
+</record_update>
