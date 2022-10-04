@@ -20,11 +20,12 @@
         <reverse_if_false>true</reverse_if_false>
         <run_scripts>true</run_scripts>
         <script_false><![CDATA[function onCondition() {
-	g_form.setVisible('approving_manager', false);
+	//g_form.setVisible('approving_manager', false);
 
 }]]></script_false>
         <script_true><![CDATA[function onCondition() {
-	g_form.setVisible('approving_manager', false);
+	//g_form.setVisible('approving_manager', false);
+	//comit
 }]]></script_true>
         <set_values/>
         <short_description>if user not found</short_description>
