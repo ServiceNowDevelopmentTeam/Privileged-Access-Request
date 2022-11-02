@@ -72,6 +72,7 @@
         <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
         <sys_id>05eb05870b9e4f3086b4ad3c69038900</sys_id>
         <sys_metadata>9e53a5751b6b38508c5143f3cc4bcba5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>manager_read_only</sys_name>
         <sys_package display_value="Global" source="global">global</sys_package>
         <sys_parent/>
@@ -80,5 +81,7 @@
         <sys_scope_delete display_value="">d15cd8b45a0e438baae9bb532120c281</sys_scope_delete>
         <sys_update_name>catalog_ui_policy_action_9e53a5751b6b38508c5143f3cc4bcba5</sys_update_name>
         <sys_update_version display_value="catalog_ui_policy_action_9e53a5751b6b38508c5143f3cc4bcba5">9f8c3e741bbd015062e50ed2cd4bcbfa</sys_update_version>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2022-03-14 13:12:35</sys_updated_on>
     </sys_metadata_delete>
 </record_update>

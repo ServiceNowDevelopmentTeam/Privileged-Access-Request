@@ -56,12 +56,15 @@ onChange(control, oldValue, newValue, isLoading) {
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>1e32f1e51b9730108c5143f3cc4bcb3b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Set Title based on Requestor (onLoad)</sys_name>
         <sys_overrides/>
         <sys_package display_value="Global" source="global">global</sys_package>
         <sys_policy/>
         <sys_scope display_value="Privileged Access Request">3df572701b7d015062e50ed2cd4bcb4c</sys_scope>
         <sys_update_name>catalog_script_client_1e32f1e51b9730108c5143f3cc4bcb3b</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-09-29 19:33:53</sys_updated_on>
         <table/>
         <type>onLoad</type>
         <ui_type>10</ui_type>
@@ -78,5 +81,8 @@ onChange(control, oldValue, newValue, isLoading) {
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-09-22 21:00:40</sys_created_on>
         <sys_id>d848886e1b42995062e50ed2cd4bcbe0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-09-29 19:33:53</sys_updated_on>
     </sys_claim>
 </record_update>

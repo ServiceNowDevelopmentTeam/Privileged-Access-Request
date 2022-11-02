@@ -11,11 +11,14 @@
         <sys_created_by>John.Schwab</sys_created_by>
         <sys_created_on>2021-10-19 13:14:10</sys_created_on>
         <sys_id>3c1475691b9730108c5143f3cc4bcb95</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>requestors_title</sys_name>
         <sys_package display_value="Global" source="global">global</sys_package>
         <sys_policy/>
         <sys_scope display_value="Privileged Access Request">3df572701b7d015062e50ed2cd4bcb4c</sys_scope>
         <sys_update_name>catalog_ui_policy_action_3c1475691b9730108c5143f3cc4bcb95</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-09-29 19:33:53</sys_updated_on>
         <table/>
         <ui_policy display_value="make title visible on itil side">f804b9291b9730108c5143f3cc4bcb7d</ui_policy>
         <variable>requestors_title</variable>
@@ -32,5 +35,8 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-09-22 21:00:28</sys_created_on>
         <sys_id>d53800ae1b42995062e50ed2cd4bcb0a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-09-29 19:33:53</sys_updated_on>
     </sys_claim>
 </record_update>

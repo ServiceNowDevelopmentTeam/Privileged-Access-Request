@@ -98,6 +98,7 @@
         <sys_db_object display_value="" name="catalog_ui_policy">catalog_ui_policy</sys_db_object>
         <sys_id>59a1bc2e212746bb8b4d556220082229</sys_id>
         <sys_metadata>6a470ca21bef3c5062e50ed2cd4bcbb5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>on ritm make it editable</sys_name>
         <sys_package display_value="Global" source="global">global</sys_package>
         <sys_parent/>
@@ -106,5 +107,7 @@
         <sys_scope_delete display_value="">d15cd8b45a0e438baae9bb532120c281</sys_scope_delete>
         <sys_update_name>catalog_ui_policy_6a470ca21bef3c5062e50ed2cd4bcbb5</sys_update_name>
         <sys_update_version display_value="catalog_ui_policy_6a470ca21bef3c5062e50ed2cd4bcbb5">e5ec3eb41bbd015062e50ed2cd4bcbe3</sys_update_version>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2022-09-20 15:22:18</sys_updated_on>
     </sys_metadata_delete>
 </record_update>

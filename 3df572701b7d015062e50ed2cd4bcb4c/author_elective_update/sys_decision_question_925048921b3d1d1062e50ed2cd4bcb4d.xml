@@ -59,6 +59,7 @@
         <sys_db_object display_value="" name="sys_decision_question">sys_decision_question</sys_db_object>
         <sys_id>a94065fb03f341b0b31f04d8ac606290</sys_id>
         <sys_metadata>925048921b3d1d1062e50ed2cd4bcb4d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Privileged Role Request - Approvers - level 1_2200</sys_name>
         <sys_package display_value="Privileged Access Request" source="3df572701b7d015062e50ed2cd4bcb4c">3df572701b7d015062e50ed2cd4bcb4c</sys_package>
         <sys_parent/>
@@ -67,5 +68,7 @@
         <sys_scope_delete display_value="">d15cd8b45a0e438baae9bb532120c281</sys_scope_delete>
         <sys_update_name>sys_decision_question_925048921b3d1d1062e50ed2cd4bcb4d</sys_update_name>
         <sys_update_version display_value="sys_decision_question_925048921b3d1d1062e50ed2cd4bcb4d">165048921b3d1d1062e50ed2cd4bcb53</sys_update_version>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2022-09-09 16:09:37</sys_updated_on>
     </sys_metadata_delete>
 </record_update>

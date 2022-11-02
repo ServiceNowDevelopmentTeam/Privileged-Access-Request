@@ -69,11 +69,14 @@
         <sys_created_by>John.Schwab</sys_created_by>
         <sys_created_on>2021-09-20 14:33:36</sys_created_on>
         <sys_id>cf10b0d41b3230508c5143f3cc4bcbec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Requestor's Phone Number</sys_name>
         <sys_package display_value="Global" source="global">global</sys_package>
         <sys_policy/>
         <sys_scope display_value="Privileged Access Request">3df572701b7d015062e50ed2cd4bcb4c</sys_scope>
         <sys_update_name>item_option_new_cf10b0d41b3230508c5143f3cc4bcbec</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-09-29 19:33:53</sys_updated_on>
         <table/>
         <tooltip/>
         <type>6</type>
@@ -138,6 +141,9 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-09-22 20:59:32</sys_created_on>
         <sys_id>fbf7c46e1b42995062e50ed2cd4bcbcd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-09-29 19:33:53</sys_updated_on>
     </sys_claim>
     <sys_claim action="INSERT_OR_UPDATE">
         <claim_owner_scope display_value="Privileged Access Request">3df572701b7d015062e50ed2cd4bcb4c</claim_owner_scope>
@@ -149,5 +155,8 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-09-22 20:59:32</sys_created_on>
         <sys_id>bff7c46e1b42995062e50ed2cd4bcbcd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-09-29 19:33:53</sys_updated_on>
     </sys_claim>
 </record_update>

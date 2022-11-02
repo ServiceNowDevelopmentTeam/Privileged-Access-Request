@@ -69,11 +69,14 @@
         <sys_created_by>John.Schwab</sys_created_by>
         <sys_created_on>2021-10-21 15:04:21</sys_created_on>
         <sys_id>0160e81e1b1f34108c5143f3cc4bcb8e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Set Manager Automatic</sys_name>
         <sys_package display_value="Global" source="global">global</sys_package>
         <sys_policy/>
         <sys_scope display_value="Privileged Access Request">3df572701b7d015062e50ed2cd4bcb4c</sys_scope>
         <sys_update_name>item_option_new_0160e81e1b1f34108c5143f3cc4bcb8e</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-09-29 19:33:53</sys_updated_on>
         <table/>
         <tooltip/>
         <type>7</type>
@@ -138,5 +141,8 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-09-22 20:58:55</sys_created_on>
         <sys_id>b2d7882e1b42995062e50ed2cd4bcb28</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-09-29 19:33:53</sys_updated_on>
     </sys_claim>
 </record_update>

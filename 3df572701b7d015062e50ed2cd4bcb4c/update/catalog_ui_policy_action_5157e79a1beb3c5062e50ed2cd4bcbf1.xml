@@ -11,11 +11,14 @@
         <sys_created_by>John.Schwab</sys_created_by>
         <sys_created_on>2021-11-03 15:48:55</sys_created_on>
         <sys_id>5157e79a1beb3c5062e50ed2cd4bcbf1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>requestor</sys_name>
         <sys_package display_value="Global" source="global">global</sys_package>
         <sys_policy/>
         <sys_scope display_value="Privileged Access Request">3df572701b7d015062e50ed2cd4bcb4c</sys_scope>
         <sys_update_name>catalog_ui_policy_action_5157e79a1beb3c5062e50ed2cd4bcbf1</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-09-29 19:33:53</sys_updated_on>
         <table/>
         <ui_policy display_value="make requestor read only on service portal">956b9c101bbefc108c5143f3cc4bcb81</ui_policy>
         <variable>requestor</variable>
@@ -32,5 +35,8 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-09-22 21:00:28</sys_created_on>
         <sys_id>113800ae1b42995062e50ed2cd4bcb09</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-09-29 19:33:53</sys_updated_on>
     </sys_claim>
 </record_update>

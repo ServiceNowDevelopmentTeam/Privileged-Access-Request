@@ -69,11 +69,14 @@
         <sys_created_by>John.Schwab</sys_created_by>
         <sys_created_on>2021-11-01 16:43:58</sys_created_on>
         <sys_id>8fb0a9fd1b2b38508c5143f3cc4bcb71</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>I don't see what I need</sys_name>
         <sys_package display_value="Global" source="global">global</sys_package>
         <sys_policy/>
         <sys_scope display_value="Privileged Access Request">3df572701b7d015062e50ed2cd4bcb4c</sys_scope>
         <sys_update_name>item_option_new_8fb0a9fd1b2b38508c5143f3cc4bcb71</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-09-29 19:33:53</sys_updated_on>
         <table/>
         <tooltip/>
         <type>7</type>
@@ -138,5 +141,8 @@
         <sys_created_by>John.Schwab</sys_created_by>
         <sys_created_on>2022-08-17 19:10:20</sys_created_on>
         <sys_id>bcc59a761b95d1508c5143f3cc4bcb5c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-09-29 19:33:53</sys_updated_on>
     </sys_claim>
 </record_update>
