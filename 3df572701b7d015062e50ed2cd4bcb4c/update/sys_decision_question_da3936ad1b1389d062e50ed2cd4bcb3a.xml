@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_question">
     <sys_decision_question action="INSERT_OR_UPDATE">
         <active>true</active>
-        <answer decision_table.answer_table="sys_user_group" name="AG_Security-IAM">338b1c041b4ad1108c5143f3cc4bcb1c</answer>
+        <answer>338b1c041b4ad1108c5143f3cc4bcb1c</answer>
         <condition table="var__m_sys_decision_input_1e3836e91b1389d062e50ed2cd4bcbf0">u_role=bc413c1c1ba8cd508c5143f3cc4bcb95^EQ<item display_table="sys_choice" display_value="Server Admin" endquery="false" field="u_role" goto="false" newquery="false" operator="=" or="false" value="bc413c1c1ba8cd508c5143f3cc4bcb95"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </condition>
