@@ -39,6 +39,25 @@
             <element>approved_or_rejected</element>
             <hint/>
             <inactive>false</inactive>
+            <label>-- None --</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_logic_ext_input_ce623c2d1b7c15108c5143f3cc4bcb07</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>John.Schwab</sys_created_by>
+            <sys_created_on>2022-11-09 15:44:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>John.Schwab</sys_updated_by>
+            <sys_updated_on>2022-11-09 15:44:49</sys_updated_on>
+            <value>-- None --</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>approved_or_rejected</element>
+            <hint/>
+            <inactive>false</inactive>
             <label>Approved</label>
             <language>en</language>
             <name>var__m_sys_hub_flow_logic_ext_input_ce623c2d1b7c15108c5143f3cc4bcb07</name>
