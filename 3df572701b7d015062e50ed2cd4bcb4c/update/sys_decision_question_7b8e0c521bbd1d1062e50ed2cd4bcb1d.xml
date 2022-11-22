@@ -2,7 +2,7 @@
     <sys_decision_question action="INSERT_OR_UPDATE">
         <active>true</active>
         <answer decision_table.answer_table="sys_user_group" name="AG_Security-IAM">c09b908c1b0e95108db03375cc4bcb65</answer>
-        <condition table="var__m_sys_decision_input_1e3836e91b1389d062e50ed2cd4bcbf0">u_role=d12e45f11be738508c5143f3cc4bcbdd^EQ<item display_table="sys_choice" display_value="Intune Administrator" endquery="false" field="u_role" goto="false" newquery="false" operator="=" or="false" value="d12e45f11be738508c5143f3cc4bcbdd"/>
+        <condition table="var__m_sys_decision_input_1e3836e91b1389d062e50ed2cd4bcbf0">u_role=d12e45f11be738508c5143f3cc4bcbdd^EQ<item display_table="sys_choice" display_value="Support Endpoint Administrator" endquery="false" field="u_role" goto="false" newquery="false" operator="=" or="false" value="d12e45f11be738508c5143f3cc4bcbdd"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </condition>
         <decision_table display_value="Privileged Role Request - Approvers - level 2">1e3836e91b1389d062e50ed2cd4bcbf0</decision_table>
