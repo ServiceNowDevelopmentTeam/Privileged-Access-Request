@@ -8,7 +8,7 @@
         <applies_target_record>true</applies_target_record>
         <applies_to>set</applies_to>
         <cat_item/>
-        <cat_variable/>
+        <cat_variable>IO:8fb0a9fd1b2b38508c5143f3cc4bcb71</cat_variable>
         <condition/>
         <description/>
         <field/>
@@ -20,19 +20,21 @@
         <script><![CDATA[function onSubmit() {
    //Type appropriate comment here, and begin script below
    
+	console.log(g_form.getValue('i_dont_see_what_i_need'));
 	
 	//if role not found
-	
-	//add to list
-	var cur = g_form.getValue('cloud_role');
-	if(cur == ''){
-		cur = '';
+	if(g_form.getValue('i_dont_see_what_i_need') == 'true'){
+		//add to list
+		var cur = g_form.getValue('cloud_role');
+		if(cur == ''){
+			cur = 'aeba4c251bdc61148c5143f3cc4bcbf3';
+		}
+		else{
+			cur += ',aeba4c251bdc61148c5143f3cc4bcbf3';
+		}
+
+		g_form.setValue('cloud_role', cur);
 	}
-	else{
-		cur += ',aeba4c251bdc61148c5143f3cc4bcbf3';
-	}
-	
-	g_form.setValue('cloud_role', cur);
 }]]></script>
         <sys_class_name>catalog_script_client</sys_class_name>
         <sys_created_by>John.Schwab</sys_created_by>
@@ -40,7 +42,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>411e9ce11b50a1148c5143f3cc4bcb52</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package display_value="Privileged Access Request" source="3df572701b7d015062e50ed2cd4bcb4c">3df572701b7d015062e50ed2cd4bcb4c</sys_package>
@@ -48,7 +50,7 @@
         <sys_scope display_value="Privileged Access Request">3df572701b7d015062e50ed2cd4bcb4c</sys_scope>
         <sys_update_name>catalog_script_client_411e9ce11b50a1148c5143f3cc4bcb52</sys_update_name>
         <sys_updated_by>John.Schwab</sys_updated_by>
-        <sys_updated_on>2023-01-09 16:35:28</sys_updated_on>
+        <sys_updated_on>2023-01-09 17:25:38</sys_updated_on>
         <table/>
         <type>onSubmit</type>
         <ui_type>10</ui_type>

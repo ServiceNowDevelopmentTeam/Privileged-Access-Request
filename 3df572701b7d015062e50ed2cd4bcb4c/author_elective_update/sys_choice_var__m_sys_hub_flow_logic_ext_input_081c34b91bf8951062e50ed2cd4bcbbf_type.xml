@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="type" table="var__m_sys_hub_flow_logic_ext_input_081c34b91bf8951062e50ed2cd4bcbbf" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>type</element>
+            <name>var__m_sys_hub_flow_logic_ext_input_081c34b91bf8951062e50ed2cd4bcbbf</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>Terry.Lillo</sys_created_by>
+            <sys_created_on>2022-07-20 13:33:06</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>type</sys_name>
+            <sys_package display_value="Privileged Access Request" source="3df572701b7d015062e50ed2cd4bcb4c">3df572701b7d015062e50ed2cd4bcb4c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Privileged Access Request">3df572701b7d015062e50ed2cd4bcb4c</sys_scope>
+            <sys_update_name>sys_choice_var__m_sys_hub_flow_logic_ext_input_081c34b91bf8951062e50ed2cd4bcbbf_type</sys_update_name>
+            <sys_updated_by>Terry.Lillo</sys_updated_by>
+            <sys_updated_on>2022-09-29 19:33:53</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>require all</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_logic_ext_input_081c34b91bf8951062e50ed2cd4bcbbf</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>Terry.Lillo</sys_created_by>
+            <sys_created_on>2022-07-20 13:33:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Terry.Lillo</sys_updated_by>
+            <sys_updated_on>2022-09-29 19:33:53</sys_updated_on>
+            <value>require all</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>require one</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_logic_ext_input_081c34b91bf8951062e50ed2cd4bcbbf</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>Terry.Lillo</sys_created_by>
+            <sys_created_on>2022-07-20 13:33:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Terry.Lillo</sys_updated_by>
+            <sys_updated_on>2022-09-29 19:33:53</sys_updated_on>
+            <value>require one</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

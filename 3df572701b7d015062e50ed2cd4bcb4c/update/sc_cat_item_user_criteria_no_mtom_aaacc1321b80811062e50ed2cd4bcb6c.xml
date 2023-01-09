@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_no_mtom">
+    <sc_cat_item_user_criteria_no_mtom action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Privileged Role Request">20f9181c1b09f490e7004229bc4bcb22</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_no_mtom</sys_class_name>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2021-11-29 14:21:19</sys_created_on>
+        <sys_id>aaacc1321b80811062e50ed2cd4bcb6c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Privileged Role Request.SNC External</sys_name>
+        <sys_package display_value="Privileged Access Request" source="3df572701b7d015062e50ed2cd4bcb4c">3df572701b7d015062e50ed2cd4bcb4c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Privileged Access Request">3df572701b7d015062e50ed2cd4bcb4c</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_no_mtom_aaacc1321b80811062e50ed2cd4bcb6c</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-09-29 19:33:53</sys_updated_on>
+        <user_criteria display_value="SNC External">66c1b50e730333009508738234f6a7c9</user_criteria>
+    </sc_cat_item_user_criteria_no_mtom>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Privileged Access Request">3df572701b7d015062e50ed2cd4bcb4c</claim_owner_scope>
+        <claim_timestamp>17f4b4638520000001</claim_timestamp>
+        <metadata_update_name>sc_cat_item_user_criteria_no_mtom_aaacc1321b80811062e50ed2cd4bcb6c</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>privliged access request</previous_claim_name>
+        <previous_claim_scope>3df572701b7d015062e50ed2cd4bcb4c</previous_claim_scope>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2022-03-02 15:36:07</sys_created_on>
+        <sys_id>cda99cb41b824d9062e50ed2cd4bcbef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-09-29 19:33:53</sys_updated_on>
+    </sys_claim>
+</record_update>
