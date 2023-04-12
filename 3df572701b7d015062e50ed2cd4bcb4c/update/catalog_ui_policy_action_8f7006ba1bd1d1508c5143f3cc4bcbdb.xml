@@ -20,7 +20,7 @@
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2022-10-20 20:05:53</sys_updated_on>
         <table/>
-        <ui_policy display_value="if user not found">3a9eb5761bd1d1508c5143f3cc4bcbc9</ui_policy>
+        <ui_policy display_value="s - if user not found">3a9eb5761bd1d1508c5143f3cc4bcbc9</ui_policy>
         <variable>approving_manager</variable>
         <variable_set display_value="Requestor Auto Fill Read Only Func">36bf0bc01ba274108c5143f3cc4bcb8b</variable_set>
         <visible>ignore</visible>

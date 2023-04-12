@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <misc>0</misc>
+        <order>1800</order>
+        <published_ref/>
+        <question display_value="Company">54ca3d071b8fc9908c5143f3cc4bcb2b</question>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2023-03-02 19:26:58</sys_created_on>
+        <sys_id>cccab4521bd125108c5143f3cc4bcb6c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Tenet</sys_name>
+        <sys_package display_value="Privileged Access Request" source="3df572701b7d015062e50ed2cd4bcb4c">3df572701b7d015062e50ed2cd4bcb4c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Privileged Access Request">3df572701b7d015062e50ed2cd4bcb4c</sys_scope>
+        <sys_update_name>question_choice_cccab4521bd125108c5143f3cc4bcb6c</sys_update_name>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2023-03-02 19:51:49</sys_updated_on>
+        <text>Tenet</text>
+        <value>xx</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=cccab4521bd125108c5143f3cc4bcb6c"/>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>misc</field>
+        <id>cccab4521bd125108c5143f3cc4bcb6c</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2023-03-02 19:26:58</sys_created_on>
+        <sys_id>a9cab0921bd125108c5143f3cc4bcba4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2023-03-02 19:26:58</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_misc</field>
+        <id>cccab4521bd125108c5143f3cc4bcb6c</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2023-03-02 19:26:58</sys_created_on>
+        <sys_id>21cab0921bd125108c5143f3cc4bcba4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2023-03-02 19:26:58</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Privileged Access Request">3df572701b7d015062e50ed2cd4bcb4c</application>
+        <file_path/>
+        <instance_id>37412023db6dd890ad8dd7c8f49619a0</instance_id>
+        <instance_name>apigroupdev</instance_name>
+        <name>question_choice_cccab4521bd125108c5143f3cc4bcb6c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><misc>0</misc><order>1800</order><published_ref/><question display_value="Company">54ca3d071b8fc9908c5143f3cc4bcb2b</question><rec_misc>0</rec_misc><sys_class_name>question_choice</sys_class_name><sys_created_by>John.Schwab</sys_created_by><sys_created_on>2023-03-02 19:26:58</sys_created_on><sys_id>cccab4521bd125108c5143f3cc4bcb6c</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Tenet</sys_name><sys_package display_value="Privileged Access Request" source="3df572701b7d015062e50ed2cd4bcb4c">3df572701b7d015062e50ed2cd4bcb4c</sys_package><sys_policy/><sys_scope display_value="Privileged Access Request">3df572701b7d015062e50ed2cd4bcb4c</sys_scope><sys_update_name>question_choice_cccab4521bd125108c5143f3cc4bcb6c</sys_update_name><sys_updated_by>John.Schwab</sys_updated_by><sys_updated_on>2023-03-02 19:51:49</sys_updated_on><text>Tenet</text><value>xx</value></question_choice><fx_price action="delete_multiple" query="id=cccab4521bd125108c5143f3cc4bcb6c"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>misc</field><id>cccab4521bd125108c5143f3cc4bcb6c</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>John.Schwab</sys_created_by><sys_created_on>2023-03-02 19:26:58</sys_created_on><sys_id>a9cab0921bd125108c5143f3cc4bcba4</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>John.Schwab</sys_updated_by><sys_updated_on>2023-03-02 19:26:58</sys_updated_on><table>question_choice</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_misc</field><id>cccab4521bd125108c5143f3cc4bcb6c</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>John.Schwab</sys_created_by><sys_created_on>2023-03-02 19:26:58</sys_created_on><sys_id>21cab0921bd125108c5143f3cc4bcba4</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>John.Schwab</sys_updated_by><sys_updated_on>2023-03-02 19:26:58</sys_updated_on><table>question_choice</table><type>calculated</type></fx_price></record_update>]]></payload>
+        <payload_hash>-1751542953</payload_hash>
+        <record_name>Tenet</record_name>
+        <reverted_from/>
+        <source>a3d395391b49a1508c5143f3cc4bcbff</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2023-03-02 19:51:49</sys_created_on>
+        <sys_id>2970419a1bd125108c5143f3cc4bcbd8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>186a3e17ed90000001</sys_recorded_at>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2023-03-02 19:51:49</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>ad70419a4ad12510fb78a8b393bc35d7</update_guid>
+        <update_guid_history>ad70419a4ad12510fb78a8b393bc35d7:-1751542953,65cab09206d12510d6d59ba65a27f8a6:257215343</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Tenet">d461c5da1bd125108c5143f3cc4bcb80</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2023-03-02 19:55:50</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>29fc348eb4c340b0a015ad98a26f7099</sys_id>
+        <sys_metadata>cccab4521bd125108c5143f3cc4bcb6c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Tenet</sys_name>
+        <sys_package display_value="Privileged Access Request" source="3df572701b7d015062e50ed2cd4bcb4c">3df572701b7d015062e50ed2cd4bcb4c</sys_package>
+        <sys_parent display_value="Company">54ca3d071b8fc9908c5143f3cc4bcb2b</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Privileged Access Request">3df572701b7d015062e50ed2cd4bcb4c</sys_scope>
+        <sys_scope_delete display_value="">d15cd8b45a0e438baae9bb532120c281</sys_scope_delete>
+        <sys_update_name>question_choice_cccab4521bd125108c5143f3cc4bcb6c</sys_update_name>
+        <sys_update_version display_value="question_choice_cccab4521bd125108c5143f3cc4bcb6c">2970419a1bd125108c5143f3cc4bcbd8</sys_update_version>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2023-03-02 19:55:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
