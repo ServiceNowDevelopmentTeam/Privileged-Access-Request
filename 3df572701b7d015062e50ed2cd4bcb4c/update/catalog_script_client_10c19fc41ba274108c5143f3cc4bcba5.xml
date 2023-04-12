@@ -51,7 +51,6 @@
         //if manager record is not empty
         if (reqFor.manager != '') {
             g_form.setValue('approving_manager', reqFor.manager);
-			
 			if(g_form.getValue('manager_read_only') == 'true'){
 				g_form.setReadOnly('approving_manager', true);
 				g_form.setMandatory('approving_manager', false);
@@ -89,7 +88,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>10c19fc41ba274108c5143f3cc4bcba5</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Get Requested For's Info and Autofill</sys_name>
         <sys_overrides/>
         <sys_package display_value="Global" source="global">global</sys_package>
@@ -97,7 +96,7 @@
         <sys_scope display_value="Privileged Access Request">3df572701b7d015062e50ed2cd4bcb4c</sys_scope>
         <sys_update_name>catalog_script_client_10c19fc41ba274108c5143f3cc4bcba5</sys_update_name>
         <sys_updated_by>John.Schwab</sys_updated_by>
-        <sys_updated_on>2022-12-20 14:34:11</sys_updated_on>
+        <sys_updated_on>2023-03-28 19:30:57</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>10</ui_type>
