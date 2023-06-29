@@ -10,7 +10,7 @@
         <copied_from_name/>
         <description/>
         <internal_name>priviliged_sub_subflow</internal_name>
-        <label_cache>[{"name":"flow_variable.assignment_group","label":"Flow Variables➛assignment group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"4e17fd67-f6be-4f30-947d-14d39ae03e86"}},{"name":"flow_variable.description","label":"Flow Variables➛Description","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"7d53a063-a4e6-43ac-aa5a-fad2869c678d"}},{"name":"d36e7673-92fd-4ac8-8e94-3819117b5760.__dont_treat_as_error__","label":"12 - Create Catalog Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d36e7673-92fd-4ac8-8e94-3819117b5760.__action_status__","label":"12 - Create Catalog Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d36e7673-92fd-4ac8-8e94-3819117b5760.Catalog Task","label":"12 - Create Catalog Task➛Catalog Task","reference":"sc_task","reference_display":"Catalog Task","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1cfc2871-eee7-4e09-be12-8036033294f4.Catalog Task","label":"10 - Create Catalog Task➛Catalog Task","reference":"sc_task","reference_display":"Catalog Task","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1cfc2871-eee7-4e09-be12-8036033294f4.__action_status__","label":"10 - Create Catalog Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1cfc2871-eee7-4e09-be12-8036033294f4.__dont_treat_as_error__","label":"10 - Create Catalog Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"subflow.ritm","label":"Input➛ritm","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","column_name":"","attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"d55ba550-4b30-4ff2-b2a6-6b0788c20921","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.access_name","label":"Input➛access name","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"17941bc6-22bb-4001-aec2-e8c03c2d0eba","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.requested_for","label":"Input➛requested for","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"016c5868-8f6b-4af8-b95a-5cb0dec0d628","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.variable","label":"Input➛variable","reference":"","reference_display":"","type":"boolean","base_type":"boolean","column_name":"","attributes":{"uiType":"boolean","uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"1315085a-3b7a-426b-a8f8-bd12202db2d2","sourceUiUniqueId":"","sourceType":"","sourceId":""}}]</label_cache>
+        <label_cache>[{"name":"subflow.variable","label":"Input➛variable","reference":"","reference_display":"","type":"boolean","base_type":"boolean","column_name":"","attributes":{"uiType":"boolean","uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"1315085a-3b7a-426b-a8f8-bd12202db2d2","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.requested_for","label":"Input➛requested for","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"016c5868-8f6b-4af8-b95a-5cb0dec0d628","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.access_name","label":"Input➛access name","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"17941bc6-22bb-4001-aec2-e8c03c2d0eba","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.ritm","label":"Input➛ritm","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","column_name":"","attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"d55ba550-4b30-4ff2-b2a6-6b0788c20921","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"1cfc2871-eee7-4e09-be12-8036033294f4.__dont_treat_as_error__","label":"13 - Create Catalog Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1cfc2871-eee7-4e09-be12-8036033294f4.__action_status__","label":"13 - Create Catalog Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1cfc2871-eee7-4e09-be12-8036033294f4.Catalog Task","label":"13 - Create Catalog Task➛Catalog Task","reference":"sc_task","reference_display":"Catalog Task","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d36e7673-92fd-4ac8-8e94-3819117b5760.Catalog Task","label":"15 - Create Catalog Task➛Catalog Task","reference":"sc_task","reference_display":"Catalog Task","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d36e7673-92fd-4ac8-8e94-3819117b5760.__action_status__","label":"15 - Create Catalog Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d36e7673-92fd-4ac8-8e94-3819117b5760.__dont_treat_as_error__","label":"15 - Create Catalog Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"flow_variable.description","label":"Flow Variables➛Description","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"7d53a063-a4e6-43ac-aa5a-fad2869c678d"}},{"name":"flow_variable.assignment_group","label":"Flow Variables➛assignment group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"4e17fd67-f6be-4f30-947d-14d39ae03e86"}},{"name":"9d8c0cf8-a09e-4e81-b2ff-ee86580ea952.desired_role","label":"1 - Get Catalog Variables➛desired_role","reference":"","reference_display":"desired_role","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}}]</label_cache>
         <master_snapshot>3434d6681b2fd5d062e50ed2cd4bcb1f</master_snapshot>
         <name>priviliged sub subflow</name>
         <natlang/>
@@ -29,7 +29,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>3d1b4a281bebd5d062e50ed2cd4bcbb0</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>21</sys_mod_count>
         <sys_name>priviliged sub subflow</sys_name>
         <sys_overrides/>
         <sys_package display_value="Privileged Access Request" source="3df572701b7d015062e50ed2cd4bcb4c">3df572701b7d015062e50ed2cd4bcb4c</sys_package>
@@ -37,7 +37,7 @@
         <sys_scope display_value="Privileged Access Request">3df572701b7d015062e50ed2cd4bcb4c</sys_scope>
         <sys_update_name>sys_hub_flow_3d1b4a281bebd5d062e50ed2cd4bcbb0</sys_update_name>
         <sys_updated_by>John.Schwab</sys_updated_by>
-        <sys_updated_on>2023-02-28 19:27:12</sys_updated_on>
+        <sys_updated_on>2023-06-29 13:12:39</sys_updated_on>
         <type>subflow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=3d1b4a281bebd5d062e50ed2cd4bcbb0"/>
@@ -392,7 +392,7 @@
     </sys_hub_flow_input>
     <sys_hub_flow_output action="delete_multiple" query="model=3d1b4a281bebd5d062e50ed2cd4bcbb0"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=3d1b4a281bebd5d062e50ed2cd4bcbb0"/>
-    <sys_hub_action_instance action="delete_multiple" query="flow=3d1b4a281bebd5d062e50ed2cd4bcbb0^sys_idNOT IN103496681b2fd5d062e50ed2cd4bcbba,99c116641b2fd5d062e50ed2cd4bcba3"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=3d1b4a281bebd5d062e50ed2cd4bcbb0^sys_idNOT IN103496681b2fd5d062e50ed2cd4bcbba,9393f8d41bffa5908c5143f3cc4bcb31,99c116641b2fd5d062e50ed2cd4bcba3"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -401,16 +401,16 @@
         <comment/>
         <display_text/>
         <flow display_value="priviliged sub subflow">3d1b4a281bebd5d062e50ed2cd4bcbb0</flow>
-        <order>12</order>
+        <order>15</order>
         <parent_ui_id>ed1d944b-707e-46fb-92c2-71f4200ccb49</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>John.Schwab</sys_created_by>
         <sys_created_on>2022-11-30 15:38:24</sys_created_on>
         <sys_id>103496681b2fd5d062e50ed2cd4bcbba</sys_id>
-        <sys_mod_count>42</sys_mod_count>
+        <sys_mod_count>56</sys_mod_count>
         <sys_scope display_value="Privileged Access Request">3df572701b7d015062e50ed2cd4bcb4c</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2023-05-24 14:37:46</sys_updated_on>
+        <sys_updated_on>2023-06-29 13:14:56</sys_updated_on>
         <ui_id>d36e7673-92fd-4ac8-8e94-3819117b5760</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=103496681b2fd5d062e50ed2cd4bcbba"/>
@@ -482,24 +482,126 @@
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
+        <action_type display_value="Get Catalog Variables">330ba3abc31013002841b63b12d3aee8</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="priviliged sub subflow">3d1b4a281bebd5d062e50ed2cd4bcbb0</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2023-06-28 20:24:49</sys_created_on>
+        <sys_id>9393f8d41bffa5908c5143f3cc4bcb31</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_scope display_value="Privileged Access Request">3df572701b7d015062e50ed2cd4bcb4c</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-06-29 13:14:56</sys_updated_on>
+        <ui_id>9d8c0cf8-a09e-4e81-b2ff-ee86580ea952</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=9393f8d41bffa5908c5143f3cc4bcb31"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>9393f8d41bffa5908c5143f3cc4bcb31</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2023-06-28 20:24:49</sys_created_on>
+        <sys_id>1b93f8d41bffa5908c5143f3cc4bcb34</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2023-06-28 20:24:49</sys_updated_on>
+        <value>20f9181c1b09f490e7004229bc4bcb22</value>
+        <variable display_value="Template Catalog Items and Variable Sets">bb0ba3abc31013002841b63b12d3aef1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>9393f8d41bffa5908c5143f3cc4bcb31</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2023-06-28 20:24:49</sys_created_on>
+        <sys_id>df93f8d41bffa5908c5143f3cc4bcb33</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2023-06-28 20:24:49</sys_updated_on>
+        <value>dffc151c1beccd508c5143f3cc4bcb9d:item_option_new</value>
+        <variable display_value="Catalog Variables">7b0ba3abc31013002841b63b12d3aef7</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=9393f8d41bffa5908c5143f3cc4bcb31"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>catalog_variables</field>
+        <id>9393f8d41bffa5908c5143f3cc4bcb31</id>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2023-06-28 20:24:49</sys_created_on>
+        <sys_id>d393f8d41bffa5908c5143f3cc4bcb33</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2023-06-28 20:24:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_330ba3abc31013002841b63b12d3aee8</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>requested_item</field>
+        <id>9393f8d41bffa5908c5143f3cc4bcb31</id>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2023-06-28 20:24:49</sys_created_on>
+        <sys_id>5f93f8d41bffa5908c5143f3cc4bcb33</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2023-06-28 20:24:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_330ba3abc31013002841b63b12d3aee8</table>
+        <value>{{subflow.ritm}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>template_catalog_item</field>
+        <id>9393f8d41bffa5908c5143f3cc4bcb31</id>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2023-06-28 20:24:49</sys_created_on>
+        <sys_id>9b93f8d41bffa5908c5143f3cc4bcb33</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2023-06-28 20:24:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_330ba3abc31013002841b63b12d3aee8</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=9393f8d41bffa5908c5143f3cc4bcb31"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=9393f8d41bffa5908c5143f3cc4bcb31"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
         <action_type display_value="Create Catalog Task">af51fd0e73141300612c273ffff6a785</action_type>
         <action_type_parent/>
         <comment/>
         <display_text/>
         <flow display_value="priviliged sub subflow">3d1b4a281bebd5d062e50ed2cd4bcbb0</flow>
-        <order>10</order>
+        <order>13</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>John.Schwab</sys_created_by>
         <sys_created_on>2022-11-30 15:27:49</sys_created_on>
         <sys_id>99c116641b2fd5d062e50ed2cd4bcba3</sys_id>
-        <sys_mod_count>44</sys_mod_count>
+        <sys_mod_count>58</sys_mod_count>
         <sys_scope display_value="Privileged Access Request">3df572701b7d015062e50ed2cd4bcb4c</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2023-05-24 14:37:46</sys_updated_on>
+        <sys_updated_on>2023-06-29 13:14:56</sys_updated_on>
         <ui_id>1cfc2871-eee7-4e09-be12-8036033294f4</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=99c116641b2fd5d062e50ed2cd4bcba3"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>99c116641b2fd5d062e50ed2cd4bcba3</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2023-06-29 13:12:27</sys_created_on>
+        <sys_id>e33a54e81bf329908c5143f3cc4bcb19</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2023-06-29 13:12:27</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Wait">f751fd0e73141300612c273ffff6a7b2</variable>
+    </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=99c116641b2fd5d062e50ed2cd4bcba3"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>ah_fields</field>
@@ -539,10 +641,22 @@
         <table>var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785</table>
         <value>AD.SEC03 New Access - {{subflow.access_name}} - {{subflow.requested_for}}</value>
     </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_wait</field>
+        <id>99c116641b2fd5d062e50ed2cd4bcba3</id>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2023-06-29 13:12:27</sys_created_on>
+        <sys_id>6f3a54e81bf329908c5143f3cc4bcb18</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2023-06-29 13:12:27</sys_updated_on>
+        <table>var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785</table>
+        <value/>
+    </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=99c116641b2fd5d062e50ed2cd4bcba3"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=99c116641b2fd5d062e50ed2cd4bcba3"/>
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=3d1b4a281bebd5d062e50ed2cd4bcbb0"/>
-    <sys_hub_flow_logic action="delete_multiple" query="flow=3d1b4a281bebd5d062e50ed2cd4bcbb0^sys_idNOT IN2395a6a91b1d21108c5143f3cc4bcb9d,6395a6a91b1d21108c5143f3cc4bcb9a,6795a6a91b1d21108c5143f3cc4bcb90,6795a6a91b1d21108c5143f3cc4bcba6,99c116641b2fd5d062e50ed2cd4bcba7,a395a6a91b1d21108c5143f3cc4bcba3,ab95a6a91b1d21108c5143f3cc4bcb8b,af95a6a91b1d21108c5143f3cc4bcb96,e395a6a91b1d21108c5143f3cc4bcba0,ef95a6a91b1d21108c5143f3cc4bcb93"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=3d1b4a281bebd5d062e50ed2cd4bcbb0^sys_idNOT IN2395a6a91b1d21108c5143f3cc4bcb9d,6395a6a91b1d21108c5143f3cc4bcb9a,6795a6a91b1d21108c5143f3cc4bcb90,6795a6a91b1d21108c5143f3cc4bcba6,6b93f8d41bffa5908c5143f3cc4bcb6e,99c116641b2fd5d062e50ed2cd4bcba7,a395a6a91b1d21108c5143f3cc4bcba3,ab95a6a91b1d21108c5143f3cc4bcb8b,af95a6a91b1d21108c5143f3cc4bcb96,e395a6a91b1d21108c5143f3cc4bcba0,eb93f8d41bffa5908c5143f3cc4bcb6a,ef95a6a91b1d21108c5143f3cc4bcb93"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">6f95a6a91b1d21108c5143f3cc4bcb9c</block>
         <comment/>
@@ -557,7 +671,7 @@
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>6</order>
+        <order>7</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id>94618f15-3844-4a97-adfd-4c8585b895a2</parent_ui_id>
@@ -565,10 +679,10 @@
         <sys_created_by>John.Schwab</sys_created_by>
         <sys_created_on>2023-02-28 19:18:21</sys_created_on>
         <sys_id>2395a6a91b1d21108c5143f3cc4bcb9d</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_scope display_value="Privileged Access Request">3df572701b7d015062e50ed2cd4bcb4c</sys_scope>
         <sys_updated_by>John.Schwab</sys_updated_by>
-        <sys_updated_on>2023-02-28 19:27:12</sys_updated_on>
+        <sys_updated_on>2023-06-29 13:12:38</sys_updated_on>
         <ui_id>5e67a05e-5b8c-4b89-abf1-1f000ff8cc4f</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -603,7 +717,7 @@
         <flow_variables_assigned>description</flow_variables_assigned>
         <inputs/>
         <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
-        <order>5</order>
+        <order>6</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id>f5c0345f-00ea-4eda-9f61-317b9c56131e</parent_ui_id>
@@ -611,10 +725,10 @@
         <sys_created_by>John.Schwab</sys_created_by>
         <sys_created_on>2023-02-28 19:18:20</sys_created_on>
         <sys_id>6395a6a91b1d21108c5143f3cc4bcb9a</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_scope display_value="Privileged Access Request">3df572701b7d015062e50ed2cd4bcb4c</sys_scope>
         <sys_updated_by>John.Schwab</sys_updated_by>
-        <sys_updated_on>2023-02-28 19:27:12</sys_updated_on>
+        <sys_updated_on>2023-06-29 13:12:38</sys_updated_on>
         <ui_id>bc8899fc-2d69-4c32-a13a-458af17953f0</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -651,7 +765,7 @@
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>2</order>
+        <order>3</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id/>
@@ -659,10 +773,10 @@
         <sys_created_by>John.Schwab</sys_created_by>
         <sys_created_on>2023-02-28 19:18:20</sys_created_on>
         <sys_id>6795a6a91b1d21108c5143f3cc4bcb90</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_scope display_value="Privileged Access Request">3df572701b7d015062e50ed2cd4bcb4c</sys_scope>
         <sys_updated_by>John.Schwab</sys_updated_by>
-        <sys_updated_on>2023-02-28 19:27:11</sys_updated_on>
+        <sys_updated_on>2023-06-29 13:12:38</sys_updated_on>
         <ui_id>94618f15-3844-4a97-adfd-4c8585b895a2</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -697,7 +811,7 @@
         <flow_variables_assigned>description</flow_variables_assigned>
         <inputs/>
         <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
-        <order>9</order>
+        <order>10</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id>d0bf7534-c53d-406e-9596-a964495a9421</parent_ui_id>
@@ -705,10 +819,10 @@
         <sys_created_by>John.Schwab</sys_created_by>
         <sys_created_on>2023-02-28 19:18:21</sys_created_on>
         <sys_id>6795a6a91b1d21108c5143f3cc4bcba6</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_scope display_value="Privileged Access Request">3df572701b7d015062e50ed2cd4bcb4c</sys_scope>
         <sys_updated_by>John.Schwab</sys_updated_by>
-        <sys_updated_on>2023-02-28 19:27:12</sys_updated_on>
+        <sys_updated_on>2023-06-29 13:12:39</sys_updated_on>
         <ui_id>4e13a644-91fe-4bd8-8822-1079f07d7d58</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -732,6 +846,52 @@
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=6795a6a91b1d21108c5143f3cc4bcba6"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=6795a6a91b1d21108c5143f3cc4bcba6"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">a393f8d41bffa5908c5143f3cc4bcb6e</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="priviliged sub subflow">3d1b4a281bebd5d062e50ed2cd4bcbb0</flow>
+        <flow_variable/>
+        <flow_variable/>
+        <flow_variables_assigned>description</flow_variables_assigned>
+        <inputs/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>12</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>ff5a20d4-2948-432d-87ae-0d8355f11549</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2023-06-28 20:24:50</sys_created_on>
+        <sys_id>6b93f8d41bffa5908c5143f3cc4bcb6e</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="Privileged Access Request">3df572701b7d015062e50ed2cd4bcb4c</sys_scope>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2023-06-29 13:12:39</sys_updated_on>
+        <ui_id>31300069-8084-4ac0-8fc5-c5c662e9f5b8</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=6b93f8d41bffa5908c5143f3cc4bcb6e"/>
+    <sys_element_mapping action="delete_multiple" query="id=6b93f8d41bffa5908c5143f3cc4bcb6e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>description</field>
+        <id>6b93f8d41bffa5908c5143f3cc4bcb6e</id>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2023-06-28 20:24:50</sys_created_on>
+        <sys_id>2793f8d41bffa5908c5143f3cc4bcb71</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2023-06-28 20:24:50</sys_updated_on>
+        <table>var__m_sys_hub_flow_variable_3d1b4a281bebd5d062e50ed2cd4bcbb0</table>
+        <value>Desired Cloud Admin Role: {{9d8c0cf8-a09e-4e81-b2ff-ee86580ea952.desired_role}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=6b93f8d41bffa5908c5143f3cc4bcb6e"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=6b93f8d41bffa5908c5143f3cc4bcb6e"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">51c116641b2fd5d062e50ed2cd4bcba7</block>
         <comment/>
         <connected_to/>
@@ -745,7 +905,7 @@
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>11</order>
+        <order>14</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id/>
@@ -753,10 +913,10 @@
         <sys_created_by>John.Schwab</sys_created_by>
         <sys_created_on>2022-11-30 15:27:49</sys_created_on>
         <sys_id>99c116641b2fd5d062e50ed2cd4bcba7</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_scope display_value="Privileged Access Request">3df572701b7d015062e50ed2cd4bcb4c</sys_scope>
         <sys_updated_by>John.Schwab</sys_updated_by>
-        <sys_updated_on>2023-02-28 19:27:12</sys_updated_on>
+        <sys_updated_on>2023-06-29 13:12:39</sys_updated_on>
         <ui_id>ed1d944b-707e-46fb-92c2-71f4200ccb49</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -792,7 +952,7 @@
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>8</order>
+        <order>9</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id>94618f15-3844-4a97-adfd-4c8585b895a2</parent_ui_id>
@@ -800,10 +960,10 @@
         <sys_created_by>John.Schwab</sys_created_by>
         <sys_created_on>2023-02-28 19:18:21</sys_created_on>
         <sys_id>a395a6a91b1d21108c5143f3cc4bcba3</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_scope display_value="Privileged Access Request">3df572701b7d015062e50ed2cd4bcb4c</sys_scope>
         <sys_updated_by>John.Schwab</sys_updated_by>
-        <sys_updated_on>2023-02-28 19:27:12</sys_updated_on>
+        <sys_updated_on>2023-06-29 13:12:38</sys_updated_on>
         <ui_id>d0bf7534-c53d-406e-9596-a964495a9421</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -838,7 +998,7 @@
         <flow_variables_assigned>assignment_group</flow_variables_assigned>
         <inputs/>
         <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
-        <order>1</order>
+        <order>2</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id/>
@@ -846,10 +1006,10 @@
         <sys_created_by>John.Schwab</sys_created_by>
         <sys_created_on>2023-02-28 19:18:20</sys_created_on>
         <sys_id>ab95a6a91b1d21108c5143f3cc4bcb8b</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_scope display_value="Privileged Access Request">3df572701b7d015062e50ed2cd4bcb4c</sys_scope>
         <sys_updated_by>John.Schwab</sys_updated_by>
-        <sys_updated_on>2023-02-28 19:27:11</sys_updated_on>
+        <sys_updated_on>2023-06-29 13:12:38</sys_updated_on>
         <ui_id>c0c02fee-2d13-4b21-b2d0-f05a5df884fd</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -886,7 +1046,7 @@
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>4</order>
+        <order>5</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id>94618f15-3844-4a97-adfd-4c8585b895a2</parent_ui_id>
@@ -894,10 +1054,10 @@
         <sys_created_by>John.Schwab</sys_created_by>
         <sys_created_on>2023-02-28 19:18:20</sys_created_on>
         <sys_id>af95a6a91b1d21108c5143f3cc4bcb96</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_scope display_value="Privileged Access Request">3df572701b7d015062e50ed2cd4bcb4c</sys_scope>
         <sys_updated_by>John.Schwab</sys_updated_by>
-        <sys_updated_on>2023-02-28 19:27:12</sys_updated_on>
+        <sys_updated_on>2023-06-29 13:12:38</sys_updated_on>
         <ui_id>f5c0345f-00ea-4eda-9f61-317b9c56131e</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -932,7 +1092,7 @@
         <flow_variables_assigned>description</flow_variables_assigned>
         <inputs/>
         <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
-        <order>7</order>
+        <order>8</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id>5e67a05e-5b8c-4b89-abf1-1f000ff8cc4f</parent_ui_id>
@@ -940,10 +1100,10 @@
         <sys_created_by>John.Schwab</sys_created_by>
         <sys_created_on>2023-02-28 19:18:21</sys_created_on>
         <sys_id>e395a6a91b1d21108c5143f3cc4bcba0</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_scope display_value="Privileged Access Request">3df572701b7d015062e50ed2cd4bcb4c</sys_scope>
         <sys_updated_by>John.Schwab</sys_updated_by>
-        <sys_updated_on>2023-02-28 19:27:12</sys_updated_on>
+        <sys_updated_on>2023-06-29 13:12:38</sys_updated_on>
         <ui_id>de7eca1d-c0b3-4b48-b913-83d7936f2141</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -968,6 +1128,53 @@
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=e395a6a91b1d21108c5143f3cc4bcba0"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=e395a6a91b1d21108c5143f3cc4bcba0"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">ef93f8d41bffa5908c5143f3cc4bcb69</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="priviliged sub subflow">3d1b4a281bebd5d062e50ed2cd4bcbb0</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>11</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>94618f15-3844-4a97-adfd-4c8585b895a2</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2023-06-28 20:24:50</sys_created_on>
+        <sys_id>eb93f8d41bffa5908c5143f3cc4bcb6a</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="Privileged Access Request">3df572701b7d015062e50ed2cd4bcb4c</sys_scope>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2023-06-29 13:12:39</sys_updated_on>
+        <ui_id>ff5a20d4-2948-432d-87ae-0d8355f11549</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=eb93f8d41bffa5908c5143f3cc4bcb6a"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_3d1b4a281bebd5d062e50ed2cd4bcbb0^id=eb93f8d41bffa5908c5143f3cc4bcb6a"/>
+    <sys_element_mapping action="delete_multiple" query="id=eb93f8d41bffa5908c5143f3cc4bcb6a"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>eb93f8d41bffa5908c5143f3cc4bcb6a</id>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2023-06-28 20:24:50</sys_created_on>
+        <sys_id>6f93f8d41bffa5908c5143f3cc4bcb6d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2023-06-28 20:24:50</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{subflow.access_name}}LIKENot Found</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=eb93f8d41bffa5908c5143f3cc4bcb6a"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=eb93f8d41bffa5908c5143f3cc4bcb6a"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">2f95a6a91b1d21108c5143f3cc4bcb93</block>
         <comment/>
         <connected_to/>
@@ -980,7 +1187,7 @@
         <flow_variables_assigned>assignment_group</flow_variables_assigned>
         <inputs/>
         <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
-        <order>3</order>
+        <order>4</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id>94618f15-3844-4a97-adfd-4c8585b895a2</parent_ui_id>
@@ -988,10 +1195,10 @@
         <sys_created_by>John.Schwab</sys_created_by>
         <sys_created_on>2023-02-28 19:18:20</sys_created_on>
         <sys_id>ef95a6a91b1d21108c5143f3cc4bcb93</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_scope display_value="Privileged Access Request">3df572701b7d015062e50ed2cd4bcb4c</sys_scope>
         <sys_updated_by>John.Schwab</sys_updated_by>
-        <sys_updated_on>2023-02-28 19:27:11</sys_updated_on>
+        <sys_updated_on>2023-06-29 13:12:38</sys_updated_on>
         <ui_id>8ec34174-e7eb-4645-be66-3aaaaaed6c80</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1283,17 +1490,17 @@
     <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_subflow_plan","id":"4d34d6681b2fd5d062e50ed2cd4bcbc0","name":"plan","plan_signature":null}}</plan>
         <plan_id display_value="priviliged sub subflow">3d1b4a281bebd5d062e50ed2cd4bcbb0</plan_id>
-        <snapshot>d684df3c1b0325108c5143f3cc4bcb9b</snapshot>
+        <snapshot>2bca146c1bf329908c5143f3cc4bcbba</snapshot>
         <sys_created_by>John.Schwab</sys_created_by>
         <sys_created_on>2022-11-30 15:38:27</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>4d34d6681b2fd5d062e50ed2cd4bcbc0</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>John.Schwab</sys_updated_by>
-        <sys_updated_on>2023-02-28 19:27:11</sys_updated_on>
+        <sys_updated_on>2023-06-29 13:12:37</sys_updated_on>
     </sys_flow_subflow_plan>
     <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -1306,7 +1513,7 @@
         <copied_from_name/>
         <description/>
         <internal_name>priviliged_sub_subflow</internal_name>
-        <label_cache>[{"name":"flow_variable.assignment_group","label":"Flow Variables➛assignment group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"4e17fd67-f6be-4f30-947d-14d39ae03e86"}},{"name":"flow_variable.description","label":"Flow Variables➛Description","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"7d53a063-a4e6-43ac-aa5a-fad2869c678d"}},{"name":"d36e7673-92fd-4ac8-8e94-3819117b5760.__dont_treat_as_error__","label":"12 - Create Catalog Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d36e7673-92fd-4ac8-8e94-3819117b5760.__action_status__","label":"12 - Create Catalog Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d36e7673-92fd-4ac8-8e94-3819117b5760.Catalog Task","label":"12 - Create Catalog Task➛Catalog Task","reference":"sc_task","reference_display":"Catalog Task","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1cfc2871-eee7-4e09-be12-8036033294f4.Catalog Task","label":"10 - Create Catalog Task➛Catalog Task","reference":"sc_task","reference_display":"Catalog Task","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1cfc2871-eee7-4e09-be12-8036033294f4.__action_status__","label":"10 - Create Catalog Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1cfc2871-eee7-4e09-be12-8036033294f4.__dont_treat_as_error__","label":"10 - Create Catalog Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"subflow.ritm","label":"Input➛ritm","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","column_name":"","attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"d55ba550-4b30-4ff2-b2a6-6b0788c20921","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.access_name","label":"Input➛access name","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"17941bc6-22bb-4001-aec2-e8c03c2d0eba","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.requested_for","label":"Input➛requested for","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"016c5868-8f6b-4af8-b95a-5cb0dec0d628","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.variable","label":"Input➛variable","reference":"","reference_display":"","type":"boolean","base_type":"boolean","column_name":"","attributes":{"uiType":"boolean","uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"1315085a-3b7a-426b-a8f8-bd12202db2d2","sourceUiUniqueId":"","sourceType":"","sourceId":""}}]</label_cache>
+        <label_cache>[{"name":"subflow.variable","label":"Input➛variable","reference":"","reference_display":"","type":"boolean","base_type":"boolean","column_name":"","attributes":{"uiType":"boolean","uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"1315085a-3b7a-426b-a8f8-bd12202db2d2","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.requested_for","label":"Input➛requested for","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"016c5868-8f6b-4af8-b95a-5cb0dec0d628","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.access_name","label":"Input➛access name","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"17941bc6-22bb-4001-aec2-e8c03c2d0eba","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.ritm","label":"Input➛ritm","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","column_name":"","attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"d55ba550-4b30-4ff2-b2a6-6b0788c20921","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"1cfc2871-eee7-4e09-be12-8036033294f4.__dont_treat_as_error__","label":"13 - Create Catalog Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1cfc2871-eee7-4e09-be12-8036033294f4.__action_status__","label":"13 - Create Catalog Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1cfc2871-eee7-4e09-be12-8036033294f4.Catalog Task","label":"13 - Create Catalog Task➛Catalog Task","reference":"sc_task","reference_display":"Catalog Task","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d36e7673-92fd-4ac8-8e94-3819117b5760.Catalog Task","label":"15 - Create Catalog Task➛Catalog Task","reference":"sc_task","reference_display":"Catalog Task","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d36e7673-92fd-4ac8-8e94-3819117b5760.__action_status__","label":"15 - Create Catalog Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d36e7673-92fd-4ac8-8e94-3819117b5760.__dont_treat_as_error__","label":"15 - Create Catalog Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"flow_variable.description","label":"Flow Variables➛Description","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"7d53a063-a4e6-43ac-aa5a-fad2869c678d"}},{"name":"flow_variable.assignment_group","label":"Flow Variables➛assignment group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"4e17fd67-f6be-4f30-947d-14d39ae03e86"}},{"name":"9d8c0cf8-a09e-4e81-b2ff-ee86580ea952.desired_role","label":"1 - Get Catalog Variables➛desired_role","reference":"","reference_display":"desired_role","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}}]</label_cache>
         <master>true</master>
         <name>priviliged sub subflow</name>
         <natlang/>
@@ -1323,7 +1530,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>3434d6681b2fd5d062e50ed2cd4bcb1f</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -1331,7 +1538,7 @@
         <sys_scope display_value="Privileged Access Request">3df572701b7d015062e50ed2cd4bcb4c</sys_scope>
         <sys_update_name/>
         <sys_updated_by>John.Schwab</sys_updated_by>
-        <sys_updated_on>2023-02-28 19:27:09</sys_updated_on>
+        <sys_updated_on>2023-06-29 13:12:35</sys_updated_on>
         <type>subflow</type>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=3434d6681b2fd5d062e50ed2cd4bcb1f"/>
@@ -1686,7 +1893,7 @@
     </sys_hub_flow_input>
     <sys_hub_flow_output action="delete_multiple" query="model=3434d6681b2fd5d062e50ed2cd4bcb1f"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=3434d6681b2fd5d062e50ed2cd4bcb1f"/>
-    <sys_hub_action_instance action="delete_multiple" query="flow=3434d6681b2fd5d062e50ed2cd4bcb1f^sys_idNOT IN4534d6681b2fd5d062e50ed2cd4bcb8c,cd34d6681b2fd5d062e50ed2cd4bcb94"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=3434d6681b2fd5d062e50ed2cd4bcb1f^sys_idNOT IN4534d6681b2fd5d062e50ed2cd4bcb8c,cd34d6681b2fd5d062e50ed2cd4bcb94,f3a3fcd41bffa5908c5143f3cc4bcb0d"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -1695,19 +1902,33 @@
         <comment/>
         <display_text/>
         <flow display_value="priviliged sub subflow">3434d6681b2fd5d062e50ed2cd4bcb1f</flow>
-        <order>10</order>
+        <order>13</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>John.Schwab</sys_created_by>
         <sys_created_on>2022-11-30 15:38:26</sys_created_on>
         <sys_id>4534d6681b2fd5d062e50ed2cd4bcb8c</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_scope display_value="Privileged Access Request">3df572701b7d015062e50ed2cd4bcb4c</sys_scope>
         <sys_updated_by>John.Schwab</sys_updated_by>
-        <sys_updated_on>2023-02-28 19:27:09</sys_updated_on>
+        <sys_updated_on>2023-06-29 13:12:35</sys_updated_on>
         <ui_id>1cfc2871-eee7-4e09-be12-8036033294f4</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=4534d6681b2fd5d062e50ed2cd4bcb8c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>4534d6681b2fd5d062e50ed2cd4bcb8c</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2023-06-29 13:12:33</sys_created_on>
+        <sys_id>494a94e81bf329908c5143f3cc4bcbb9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2023-06-29 13:12:33</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Wait">f751fd0e73141300612c273ffff6a7b2</variable>
+    </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=4534d6681b2fd5d062e50ed2cd4bcb8c"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>ah_fields</field>
@@ -1747,6 +1968,18 @@
         <table>var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785</table>
         <value>AD.SEC03 New Access - {{subflow.access_name}} - {{subflow.requested_for}}</value>
     </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_wait</field>
+        <id>4534d6681b2fd5d062e50ed2cd4bcb8c</id>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2023-06-29 13:12:33</sys_created_on>
+        <sys_id>c54a94e81bf329908c5143f3cc4bcbb9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2023-06-29 13:12:33</sys_updated_on>
+        <table>var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785</table>
+        <value/>
+    </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=4534d6681b2fd5d062e50ed2cd4bcb8c"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=4534d6681b2fd5d062e50ed2cd4bcb8c"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
@@ -1757,16 +1990,16 @@
         <comment/>
         <display_text/>
         <flow display_value="priviliged sub subflow">3434d6681b2fd5d062e50ed2cd4bcb1f</flow>
-        <order>12</order>
+        <order>15</order>
         <parent_ui_id>ed1d944b-707e-46fb-92c2-71f4200ccb49</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>John.Schwab</sys_created_by>
         <sys_created_on>2022-11-30 15:38:27</sys_created_on>
         <sys_id>cd34d6681b2fd5d062e50ed2cd4bcb94</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_scope display_value="Privileged Access Request">3df572701b7d015062e50ed2cd4bcb4c</sys_scope>
         <sys_updated_by>John.Schwab</sys_updated_by>
-        <sys_updated_on>2023-02-28 19:27:09</sys_updated_on>
+        <sys_updated_on>2023-06-29 13:12:35</sys_updated_on>
         <ui_id>d36e7673-92fd-4ac8-8e94-3819117b5760</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=cd34d6681b2fd5d062e50ed2cd4bcb94"/>
@@ -1835,10 +2068,144 @@
     </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=cd34d6681b2fd5d062e50ed2cd4bcb94"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=cd34d6681b2fd5d062e50ed2cd4bcb94"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Get Catalog Variables">330ba3abc31013002841b63b12d3aee8</action_type>
+        <action_type_parent display_value="Get Catalog Variables">22f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="priviliged sub subflow">3434d6681b2fd5d062e50ed2cd4bcb1f</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2023-06-28 20:25:08</sys_created_on>
+        <sys_id>f3a3fcd41bffa5908c5143f3cc4bcb0d</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="Privileged Access Request">3df572701b7d015062e50ed2cd4bcb4c</sys_scope>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2023-06-29 13:12:34</sys_updated_on>
+        <ui_id>9d8c0cf8-a09e-4e81-b2ff-ee86580ea952</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=f3a3fcd41bffa5908c5143f3cc4bcb0d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>f3a3fcd41bffa5908c5143f3cc4bcb0d</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2023-06-28 20:25:08</sys_created_on>
+        <sys_id>3fa3fcd41bffa5908c5143f3cc4bcb0e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2023-06-28 20:25:08</sys_updated_on>
+        <value>dffc151c1beccd508c5143f3cc4bcb9d:item_option_new</value>
+        <variable display_value="Catalog Variables">7b0ba3abc31013002841b63b12d3aef7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>f3a3fcd41bffa5908c5143f3cc4bcb0d</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2023-06-28 20:25:08</sys_created_on>
+        <sys_id>ffa3fcd41bffa5908c5143f3cc4bcb0e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2023-06-28 20:25:08</sys_updated_on>
+        <value>20f9181c1b09f490e7004229bc4bcb22</value>
+        <variable display_value="Template Catalog Items and Variable Sets">bb0ba3abc31013002841b63b12d3aef1</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=f3a3fcd41bffa5908c5143f3cc4bcb0d"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>catalog_variables</field>
+        <id>f3a3fcd41bffa5908c5143f3cc4bcb0d</id>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2023-06-28 20:25:08</sys_created_on>
+        <sys_id>37a3fcd41bffa5908c5143f3cc4bcb0e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2023-06-28 20:25:08</sys_updated_on>
+        <table>var__m_sys_hub_action_input_330ba3abc31013002841b63b12d3aee8</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>requested_item</field>
+        <id>f3a3fcd41bffa5908c5143f3cc4bcb0d</id>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2023-06-28 20:25:08</sys_created_on>
+        <sys_id>bba3fcd41bffa5908c5143f3cc4bcb0e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2023-06-28 20:25:08</sys_updated_on>
+        <table>var__m_sys_hub_action_input_330ba3abc31013002841b63b12d3aee8</table>
+        <value>{{subflow.ritm}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>template_catalog_item</field>
+        <id>f3a3fcd41bffa5908c5143f3cc4bcb0d</id>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2023-06-28 20:25:08</sys_created_on>
+        <sys_id>f7a3fcd41bffa5908c5143f3cc4bcb0e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2023-06-28 20:25:08</sys_updated_on>
+        <table>var__m_sys_hub_action_input_330ba3abc31013002841b63b12d3aee8</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=f3a3fcd41bffa5908c5143f3cc4bcb0d"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=f3a3fcd41bffa5908c5143f3cc4bcb0d"/>
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=3434d6681b2fd5d062e50ed2cd4bcb1f"/>
-    <sys_hub_flow_logic action="delete_multiple" query="flow=3434d6681b2fd5d062e50ed2cd4bcb1f^sys_idNOT IN3c34d6681b2fd5d062e50ed2cd4bcb7f,7aa56aa91b1d21108c5143f3cc4bcbcf,b2a56aa91b1d21108c5143f3cc4bcbd3,b2a56aa91b1d21108c5143f3cc4bcbd6,b6a56aa91b1d21108c5143f3cc4bcbd9,b6a56aa91b1d21108c5143f3cc4bcbdc,baa56aa91b1d21108c5143f3cc4bcbdf,baa56aa91b1d21108c5143f3cc4bcbe2,bea56aa91b1d21108c5143f3cc4bcbe5,faa56aa91b1d21108c5143f3cc4bcbcb"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=3434d6681b2fd5d062e50ed2cd4bcb1f^sys_idNOT IN04b3fcd41bffa5908c5143f3cc4bcb66,0cb3fcd41bffa5908c5143f3cc4bcb62,3c34d6681b2fd5d062e50ed2cd4bcb7f,7aa56aa91b1d21108c5143f3cc4bcbcf,b2a56aa91b1d21108c5143f3cc4bcbd3,b2a56aa91b1d21108c5143f3cc4bcbd6,b6a56aa91b1d21108c5143f3cc4bcbd9,b6a56aa91b1d21108c5143f3cc4bcbdc,baa56aa91b1d21108c5143f3cc4bcbdf,baa56aa91b1d21108c5143f3cc4bcbe2,bea56aa91b1d21108c5143f3cc4bcbe5,faa56aa91b1d21108c5143f3cc4bcbcb"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <block display_value="">51c116641b2fd5d062e50ed2cd4bcba7</block>
+        <block display_value="">a393f8d41bffa5908c5143f3cc4bcb6e</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="priviliged sub subflow">3434d6681b2fd5d062e50ed2cd4bcb1f</flow>
+        <flow_variable/>
+        <flow_variable/>
+        <flow_variables_assigned>description</flow_variables_assigned>
+        <inputs/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>12</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>ff5a20d4-2948-432d-87ae-0d8355f11549</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2023-06-28 20:25:09</sys_created_on>
+        <sys_id>04b3fcd41bffa5908c5143f3cc4bcb66</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="Privileged Access Request">3df572701b7d015062e50ed2cd4bcb4c</sys_scope>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2023-06-29 13:12:35</sys_updated_on>
+        <ui_id>31300069-8084-4ac0-8fc5-c5c662e9f5b8</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=04b3fcd41bffa5908c5143f3cc4bcb66"/>
+    <sys_element_mapping action="delete_multiple" query="id=04b3fcd41bffa5908c5143f3cc4bcb66"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>description</field>
+        <id>04b3fcd41bffa5908c5143f3cc4bcb66</id>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2023-06-28 20:25:09</sys_created_on>
+        <sys_id>ccb3fcd41bffa5908c5143f3cc4bcb68</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2023-06-28 20:25:09</sys_updated_on>
+        <table>var__m_sys_hub_flow_variable_3434d6681b2fd5d062e50ed2cd4bcb1f</table>
+        <value>Desired Cloud Admin Role: {{9d8c0cf8-a09e-4e81-b2ff-ee86580ea952.desired_role}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=04b3fcd41bffa5908c5143f3cc4bcb66"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=04b3fcd41bffa5908c5143f3cc4bcb66"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">ef93f8d41bffa5908c5143f3cc4bcb69</block>
         <comment/>
         <connected_to/>
         <decision_table/>
@@ -1854,15 +2221,62 @@
         <order>11</order>
         <outputs_assigned/>
         <outputs_to_assign/>
+        <parent_ui_id>94618f15-3844-4a97-adfd-4c8585b895a2</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2023-06-28 20:25:09</sys_created_on>
+        <sys_id>0cb3fcd41bffa5908c5143f3cc4bcb62</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="Privileged Access Request">3df572701b7d015062e50ed2cd4bcb4c</sys_scope>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2023-06-29 13:12:35</sys_updated_on>
+        <ui_id>ff5a20d4-2948-432d-87ae-0d8355f11549</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=0cb3fcd41bffa5908c5143f3cc4bcb62"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_3434d6681b2fd5d062e50ed2cd4bcb1f^id=0cb3fcd41bffa5908c5143f3cc4bcb62"/>
+    <sys_element_mapping action="delete_multiple" query="id=0cb3fcd41bffa5908c5143f3cc4bcb62"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>0cb3fcd41bffa5908c5143f3cc4bcb62</id>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2023-06-28 20:25:09</sys_created_on>
+        <sys_id>48b3fcd41bffa5908c5143f3cc4bcb65</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2023-06-28 20:25:09</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{subflow.access_name}}LIKENot Found</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=0cb3fcd41bffa5908c5143f3cc4bcb62"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=0cb3fcd41bffa5908c5143f3cc4bcb62"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">51c116641b2fd5d062e50ed2cd4bcba7</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="priviliged sub subflow">3434d6681b2fd5d062e50ed2cd4bcb1f</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>14</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
         <parent_ui_id/>
         <sys_class_name>sys_hub_flow_logic</sys_class_name>
         <sys_created_by>John.Schwab</sys_created_by>
         <sys_created_on>2022-11-30 15:38:26</sys_created_on>
         <sys_id>3c34d6681b2fd5d062e50ed2cd4bcb7f</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_scope display_value="Privileged Access Request">3df572701b7d015062e50ed2cd4bcb4c</sys_scope>
         <sys_updated_by>John.Schwab</sys_updated_by>
-        <sys_updated_on>2023-02-28 19:27:09</sys_updated_on>
+        <sys_updated_on>2023-06-29 13:12:35</sys_updated_on>
         <ui_id>ed1d944b-707e-46fb-92c2-71f4200ccb49</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1898,7 +2312,7 @@
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>2</order>
+        <order>3</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id/>
@@ -1906,10 +2320,10 @@
         <sys_created_by>John.Schwab</sys_created_by>
         <sys_created_on>2023-02-28 19:18:34</sys_created_on>
         <sys_id>7aa56aa91b1d21108c5143f3cc4bcbcf</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Privileged Access Request">3df572701b7d015062e50ed2cd4bcb4c</sys_scope>
         <sys_updated_by>John.Schwab</sys_updated_by>
-        <sys_updated_on>2023-02-28 19:27:09</sys_updated_on>
+        <sys_updated_on>2023-06-29 13:12:35</sys_updated_on>
         <ui_id>94618f15-3844-4a97-adfd-4c8585b895a2</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1944,7 +2358,7 @@
         <flow_variables_assigned>assignment_group</flow_variables_assigned>
         <inputs/>
         <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
-        <order>3</order>
+        <order>4</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id>94618f15-3844-4a97-adfd-4c8585b895a2</parent_ui_id>
@@ -1952,10 +2366,10 @@
         <sys_created_by>John.Schwab</sys_created_by>
         <sys_created_on>2023-02-28 19:18:34</sys_created_on>
         <sys_id>b2a56aa91b1d21108c5143f3cc4bcbd3</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Privileged Access Request">3df572701b7d015062e50ed2cd4bcb4c</sys_scope>
         <sys_updated_by>John.Schwab</sys_updated_by>
-        <sys_updated_on>2023-02-28 19:27:09</sys_updated_on>
+        <sys_updated_on>2023-06-29 13:12:35</sys_updated_on>
         <ui_id>8ec34174-e7eb-4645-be66-3aaaaaed6c80</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1992,7 +2406,7 @@
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>4</order>
+        <order>5</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id>94618f15-3844-4a97-adfd-4c8585b895a2</parent_ui_id>
@@ -2000,10 +2414,10 @@
         <sys_created_by>John.Schwab</sys_created_by>
         <sys_created_on>2023-02-28 19:18:34</sys_created_on>
         <sys_id>b2a56aa91b1d21108c5143f3cc4bcbd6</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Privileged Access Request">3df572701b7d015062e50ed2cd4bcb4c</sys_scope>
         <sys_updated_by>John.Schwab</sys_updated_by>
-        <sys_updated_on>2023-02-28 19:27:09</sys_updated_on>
+        <sys_updated_on>2023-06-29 13:12:35</sys_updated_on>
         <ui_id>f5c0345f-00ea-4eda-9f61-317b9c56131e</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2038,7 +2452,7 @@
         <flow_variables_assigned>description</flow_variables_assigned>
         <inputs/>
         <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
-        <order>5</order>
+        <order>6</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id>f5c0345f-00ea-4eda-9f61-317b9c56131e</parent_ui_id>
@@ -2046,10 +2460,10 @@
         <sys_created_by>John.Schwab</sys_created_by>
         <sys_created_on>2023-02-28 19:18:34</sys_created_on>
         <sys_id>b6a56aa91b1d21108c5143f3cc4bcbd9</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Privileged Access Request">3df572701b7d015062e50ed2cd4bcb4c</sys_scope>
         <sys_updated_by>John.Schwab</sys_updated_by>
-        <sys_updated_on>2023-02-28 19:27:09</sys_updated_on>
+        <sys_updated_on>2023-06-29 13:12:35</sys_updated_on>
         <ui_id>bc8899fc-2d69-4c32-a13a-458af17953f0</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2086,7 +2500,7 @@
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>6</order>
+        <order>7</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id>94618f15-3844-4a97-adfd-4c8585b895a2</parent_ui_id>
@@ -2094,10 +2508,10 @@
         <sys_created_by>John.Schwab</sys_created_by>
         <sys_created_on>2023-02-28 19:18:34</sys_created_on>
         <sys_id>b6a56aa91b1d21108c5143f3cc4bcbdc</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Privileged Access Request">3df572701b7d015062e50ed2cd4bcb4c</sys_scope>
         <sys_updated_by>John.Schwab</sys_updated_by>
-        <sys_updated_on>2023-02-28 19:27:09</sys_updated_on>
+        <sys_updated_on>2023-06-29 13:12:35</sys_updated_on>
         <ui_id>5e67a05e-5b8c-4b89-abf1-1f000ff8cc4f</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2132,7 +2546,7 @@
         <flow_variables_assigned>description</flow_variables_assigned>
         <inputs/>
         <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
-        <order>7</order>
+        <order>8</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id>5e67a05e-5b8c-4b89-abf1-1f000ff8cc4f</parent_ui_id>
@@ -2140,10 +2554,10 @@
         <sys_created_by>John.Schwab</sys_created_by>
         <sys_created_on>2023-02-28 19:18:34</sys_created_on>
         <sys_id>baa56aa91b1d21108c5143f3cc4bcbdf</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Privileged Access Request">3df572701b7d015062e50ed2cd4bcb4c</sys_scope>
         <sys_updated_by>John.Schwab</sys_updated_by>
-        <sys_updated_on>2023-02-28 19:27:09</sys_updated_on>
+        <sys_updated_on>2023-06-29 13:12:35</sys_updated_on>
         <ui_id>de7eca1d-c0b3-4b48-b913-83d7936f2141</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2181,7 +2595,7 @@
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>8</order>
+        <order>9</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id>94618f15-3844-4a97-adfd-4c8585b895a2</parent_ui_id>
@@ -2189,10 +2603,10 @@
         <sys_created_by>John.Schwab</sys_created_by>
         <sys_created_on>2023-02-28 19:18:34</sys_created_on>
         <sys_id>baa56aa91b1d21108c5143f3cc4bcbe2</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Privileged Access Request">3df572701b7d015062e50ed2cd4bcb4c</sys_scope>
         <sys_updated_by>John.Schwab</sys_updated_by>
-        <sys_updated_on>2023-02-28 19:27:09</sys_updated_on>
+        <sys_updated_on>2023-06-29 13:12:35</sys_updated_on>
         <ui_id>d0bf7534-c53d-406e-9596-a964495a9421</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2227,7 +2641,7 @@
         <flow_variables_assigned>description</flow_variables_assigned>
         <inputs/>
         <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
-        <order>9</order>
+        <order>10</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id>d0bf7534-c53d-406e-9596-a964495a9421</parent_ui_id>
@@ -2235,10 +2649,10 @@
         <sys_created_by>John.Schwab</sys_created_by>
         <sys_created_on>2023-02-28 19:18:34</sys_created_on>
         <sys_id>bea56aa91b1d21108c5143f3cc4bcbe5</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Privileged Access Request">3df572701b7d015062e50ed2cd4bcb4c</sys_scope>
         <sys_updated_by>John.Schwab</sys_updated_by>
-        <sys_updated_on>2023-02-28 19:27:09</sys_updated_on>
+        <sys_updated_on>2023-06-29 13:12:35</sys_updated_on>
         <ui_id>4e13a644-91fe-4bd8-8822-1079f07d7d58</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2274,7 +2688,7 @@
         <flow_variables_assigned>assignment_group</flow_variables_assigned>
         <inputs/>
         <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
-        <order>1</order>
+        <order>2</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id/>
@@ -2282,10 +2696,10 @@
         <sys_created_by>John.Schwab</sys_created_by>
         <sys_created_on>2023-02-28 19:18:33</sys_created_on>
         <sys_id>faa56aa91b1d21108c5143f3cc4bcbcb</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Privileged Access Request">3df572701b7d015062e50ed2cd4bcb4c</sys_scope>
         <sys_updated_by>John.Schwab</sys_updated_by>
-        <sys_updated_on>2023-02-28 19:27:09</sys_updated_on>
+        <sys_updated_on>2023-06-29 13:12:34</sys_updated_on>
         <ui_id>c0c02fee-2d13-4b21-b2d0-f05a5df884fd</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2575,6 +2989,6 @@
     <sys_hub_flow action="UPDATE">
         <sys_id>3d1b4a281bebd5d062e50ed2cd4bcbb0</sys_id>
         <latest_snapshot>3434d6681b2fd5d062e50ed2cd4bcb1f</latest_snapshot>
-        <compiler_build>glide-tokyo-07-08-2022__patch7a-03-27-2023_04-04-2023_1511.zip</compiler_build>
+        <compiler_build>glide-tokyo-07-08-2022__patch9-05-10-2023_05-25-2023_0925.zip</compiler_build>
     </sys_hub_flow>
 </record_update>
