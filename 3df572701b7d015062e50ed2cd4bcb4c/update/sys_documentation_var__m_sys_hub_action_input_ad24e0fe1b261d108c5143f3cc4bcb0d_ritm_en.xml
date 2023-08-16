@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="ritm" label="RITM" language="en" table="var__m_sys_hub_action_input_ad24e0fe1b261d108c5143f3cc4bcb0d">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>ritm</element>
+            <help/>
+            <hint/>
+            <label>RITM</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_ad24e0fe1b261d108c5143f3cc4bcb0d</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>John.Schwab</sys_created_by>
+            <sys_created_on>2022-10-18 14:13:35</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>RITM</sys_name>
+            <sys_package display_value="Privileged Access Request" source="3df572701b7d015062e50ed2cd4bcb4c">3df572701b7d015062e50ed2cd4bcb4c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Privileged Access Request">3df572701b7d015062e50ed2cd4bcb4c</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_action_input_ad24e0fe1b261d108c5143f3cc4bcb0d_ritm_en</sys_update_name>
+            <sys_updated_by>John.Schwab</sys_updated_by>
+            <sys_updated_on>2022-10-18 14:13:35</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

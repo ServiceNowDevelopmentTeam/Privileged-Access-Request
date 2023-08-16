@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="remove_or_add" label="remove or add" language="en" table="var__m_sys_hub_action_input_1a8aa87a1b661d108c5143f3cc4bcb3f">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>remove_or_add</element>
+            <help/>
+            <hint/>
+            <label>remove or add</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_1a8aa87a1b661d108c5143f3cc4bcb3f</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>John.Schwab</sys_created_by>
+            <sys_created_on>2022-10-18 14:40:19</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>remove or add</sys_name>
+            <sys_package display_value="Privileged Access Request" source="3df572701b7d015062e50ed2cd4bcb4c">3df572701b7d015062e50ed2cd4bcb4c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Privileged Access Request">3df572701b7d015062e50ed2cd4bcb4c</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_action_input_1a8aa87a1b661d108c5143f3cc4bcb3f_remove_or_add_en</sys_update_name>
+            <sys_updated_by>John.Schwab</sys_updated_by>
+            <sys_updated_on>2022-10-18 14:40:19</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
