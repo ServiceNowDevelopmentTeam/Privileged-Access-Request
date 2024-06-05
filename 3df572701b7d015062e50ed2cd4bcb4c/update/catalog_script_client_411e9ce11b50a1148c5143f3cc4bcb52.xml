@@ -15,22 +15,25 @@
         <global>true</global>
         <isolate_script>false</isolate_script>
         <messages/>
-        <name/>
+        <name>on submit add i dont see to list</name>
         <order/>
+        <published_ref/>
         <script><![CDATA[function onSubmit() {
    //Type appropriate comment here, and begin script below
    
 	console.log(g_form.getValue('i_dont_see_what_i_need'));
 	
-	//if role not found
+	//if role not found AND its not already on the list
 	if(g_form.getValue('i_dont_see_what_i_need') == 'true'){
 		//add to list
 		var cur = g_form.getValue('cloud_role');
-		if(cur == ''){
-			cur = 'aeba4c251bdc61148c5143f3cc4bcbf3';
-		}
-		else{
-			cur += ',aeba4c251bdc61148c5143f3cc4bcbf3';
+		if (cur.indexOf('aeba4c251bdc61148c5143f3cc4bcbf3') < 0){
+			if(cur == ''){
+				cur = 'aeba4c251bdc61148c5143f3cc4bcbf3';
+			}
+			else{
+				cur += ',aeba4c251bdc61148c5143f3cc4bcbf3';
+			}
 		}
 
 		g_form.setValue('cloud_role', cur);
@@ -42,18 +45,19 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>411e9ce11b50a1148c5143f3cc4bcb52</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name/>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>on submit add i dont see to list</sys_name>
         <sys_overrides/>
         <sys_package display_value="Privileged Access Request" source="3df572701b7d015062e50ed2cd4bcb4c">3df572701b7d015062e50ed2cd4bcb4c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Privileged Access Request">3df572701b7d015062e50ed2cd4bcb4c</sys_scope>
         <sys_update_name>catalog_script_client_411e9ce11b50a1148c5143f3cc4bcb52</sys_update_name>
         <sys_updated_by>John.Schwab</sys_updated_by>
-        <sys_updated_on>2023-01-09 17:25:38</sys_updated_on>
+        <sys_updated_on>2024-04-30 22:09:53</sys_updated_on>
         <table/>
         <type>onSubmit</type>
         <ui_type>10</ui_type>
+        <va_supported>true</va_supported>
         <variable_set display_value="Cloud Roles">e2988d7d1ba738508c5143f3cc4bcb30</variable_set>
         <view/>
     </catalog_script_client>

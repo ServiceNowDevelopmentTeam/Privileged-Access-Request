@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item/>
+        <catalog_variable>IO:eef093841ba274108c5143f3cc4bcb81</catalog_variable>
+        <cleared>true</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>false</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2022-03-14 13:32:17</sys_created_on>
+        <sys_id>c25031e41b160d5062e50ed2cd4bcbdb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>approving_manager</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Privileged Access Request">3df572701b7d015062e50ed2cd4bcb4c</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_c25031e41b160d5062e50ed2cd4bcbdb</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-09-29 19:33:53</sys_updated_on>
+        <table/>
+        <ui_policy display_value="requested for = requestor">390e656c1bd20d5062e50ed2cd4bcb79</ui_policy>
+        <variable>approving_manager</variable>
+        <variable_set display_value="Requestor Auto Fill Read Only Func">36bf0bc01ba274108c5143f3cc4bcb8b</variable_set>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Privileged Access Request">3df572701b7d015062e50ed2cd4bcb4c</claim_owner_scope>
+        <claim_timestamp>18367007b940000001</claim_timestamp>
+        <metadata_update_name>catalog_ui_policy_action_c25031e41b160d5062e50ed2cd4bcbdb</metadata_update_name>
+        <previous_claim_app_version>1.0.16</previous_claim_app_version>
+        <previous_claim_name>Privileged Access Request</previous_claim_name>
+        <previous_claim_scope>3df572701b7d015062e50ed2cd4bcb4c</previous_claim_scope>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-09-22 21:00:28</sys_created_on>
+        <sys_id>1138886e1b42995062e50ed2cd4bcbf0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-09-29 19:33:53</sys_updated_on>
+    </sys_claim>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Privileged Access Request">3df572701b7d015062e50ed2cd4bcb4c</application>
+        <file_path/>
+        <instance_id>37412023db6dd890ad8dd7c8f49619a0</instance_id>
+        <instance_name>apigroupdev</instance_name>
+        <name>catalog_ui_policy_action_c25031e41b160d5062e50ed2cd4bcbdb</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item/><catalog_variable>IO:eef093841ba274108c5143f3cc4bcb81</catalog_variable><cleared>true</cleared><disabled>ignore</disabled><field/><mandatory>false</mandatory><order>100</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>John.Schwab</sys_created_by><sys_created_on>2022-03-14 13:32:17</sys_created_on><sys_id>c25031e41b160d5062e50ed2cd4bcbdb</sys_id><sys_mod_count>0</sys_mod_count><sys_name>approving_manager</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Privileged Access Request">3df572701b7d015062e50ed2cd4bcb4c</sys_scope><sys_update_name>catalog_ui_policy_action_c25031e41b160d5062e50ed2cd4bcbdb</sys_update_name><sys_updated_by>Terry.Lillo</sys_updated_by><sys_updated_on>2022-09-29 19:33:53</sys_updated_on><table/><ui_policy display_value="requested for = requestor">390e656c1bd20d5062e50ed2cd4bcb79</ui_policy><variable>approving_manager</variable><variable_set display_value="Requestor Auto Fill Read Only Func">36bf0bc01ba274108c5143f3cc4bcb8b</variable_set><visible>ignore</visible></catalog_ui_policy_action><sys_claim action="INSERT_OR_UPDATE"><claim_owner_scope display_value="Privileged Access Request">3df572701b7d015062e50ed2cd4bcb4c</claim_owner_scope><claim_timestamp>18367007b940000001</claim_timestamp><metadata_update_name>catalog_ui_policy_action_c25031e41b160d5062e50ed2cd4bcbdb</metadata_update_name><previous_claim_app_version>1.0.16</previous_claim_app_version><previous_claim_name>Privileged Access Request</previous_claim_name><previous_claim_scope>3df572701b7d015062e50ed2cd4bcb4c</previous_claim_scope><sys_created_by>Terry.Lillo</sys_created_by><sys_created_on>2022-09-22 21:00:28</sys_created_on><sys_id>1138886e1b42995062e50ed2cd4bcbf0</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>Terry.Lillo</sys_updated_by><sys_updated_on>2022-09-29 19:33:53</sys_updated_on></sys_claim></record_update>]]></payload>
+        <payload_hash>-842055799</payload_hash>
+        <record_name>approving_manager</record_name>
+        <reverted_from/>
+        <source>20af957c1b2cc21062e50ed2cd4bcbe1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2024-02-21 15:52:27</sys_created_on>
+        <sys_id>06af197c1b2cc21062e50ed2cd4bcb19</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18dcc5e46d20000001</sys_recorded_at>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2024-02-21 15:52:27</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>0aaf197cd02cc2106c783083e6e41718</update_guid>
+        <update_guid_history>0aaf197cd02cc2106c783083e6e41718:-842055799,fa2900ee6c4e59105f2bba4107087a75:0,f826c86ad042995012a416a287e71c2d:-723218965,0a73549945564d50bf9759eb0ee4f87f:1564590009,0060fd6492160d50e1f25ef4dc7a30a1:-723218965</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="approving_manager">83d0c7ce1b260690c16ddb9ebd4bcbf7</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>james.benagh@glidefast.com</sys_created_by>
+        <sys_created_on>2024-06-04 06:15:07</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>1b422436e5774d86842843214c37ee51</sys_id>
+        <sys_metadata>c25031e41b160d5062e50ed2cd4bcbdb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>approving_manager</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Privileged Access Request">3df572701b7d015062e50ed2cd4bcb4c</sys_scope>
+        <sys_scope_delete display_value="">d15cd8b45a0e438baae9bb532120c281</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_c25031e41b160d5062e50ed2cd4bcbdb</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_c25031e41b160d5062e50ed2cd4bcbdb">06af197c1b2cc21062e50ed2cd4bcb19</sys_update_version>
+        <sys_updated_by>james.benagh@glidefast.com</sys_updated_by>
+        <sys_updated_on>2024-06-04 06:15:07</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

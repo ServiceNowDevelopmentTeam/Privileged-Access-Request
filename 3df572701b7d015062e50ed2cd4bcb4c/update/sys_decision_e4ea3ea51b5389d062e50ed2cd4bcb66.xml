@@ -4,10 +4,13 @@
         <active>true</active>
         <answer_table>sys_user_group</answer_table>
         <answer_type>reference</answer_type>
+        <delta/>
         <description/>
+        <enable_publishing>false</enable_publishing>
         <label/>
         <name>Privileged Role Request - Approvers - level 3</name>
         <reference_qualifier/>
+        <status/>
         <sys_class_name>sys_decision</sys_class_name>
         <sys_created_by>John.Schwab</sys_created_by>
         <sys_created_on>2022-05-06 14:34:31</sys_created_on>

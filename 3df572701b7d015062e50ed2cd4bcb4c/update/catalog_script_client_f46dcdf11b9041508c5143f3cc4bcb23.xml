@@ -17,6 +17,7 @@
         <messages/>
         <name>Set Requested For On Load</name>
         <order>0</order>
+        <published_ref/>
         <script><![CDATA[function onLoad() {
 	//If access request then set blank, else set to current user
 	//var userID =  g_form.getUniqueValue() != '4580d7a8db110010a81ff36f299619b3' ? g_user.userID : '';
@@ -41,6 +42,7 @@
         <table/>
         <type>onLoad</type>
         <ui_type>10</ui_type>
+        <va_supported>true</va_supported>
         <variable_set display_value="Requestor Auto Fill Read Only Func">36bf0bc01ba274108c5143f3cc4bcb8b</variable_set>
         <view/>
     </catalog_script_client>

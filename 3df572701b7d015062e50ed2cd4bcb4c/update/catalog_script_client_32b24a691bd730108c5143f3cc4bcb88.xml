@@ -17,6 +17,7 @@
         <messages/>
         <name>Set Title based on Requestor (onChange)</name>
         <order>100</order>
+        <published_ref/>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
    if (isLoading || newValue == '') {
       return;
@@ -53,6 +54,7 @@
         <table/>
         <type>onChange</type>
         <ui_type>10</ui_type>
+        <va_supported>true</va_supported>
         <variable_set display_value="Requestor Auto Fill Read Only Func">36bf0bc01ba274108c5143f3cc4bcb8b</variable_set>
         <view/>
     </catalog_script_client>

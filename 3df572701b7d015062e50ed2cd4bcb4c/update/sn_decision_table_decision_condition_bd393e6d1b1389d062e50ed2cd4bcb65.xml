@@ -9,6 +9,7 @@
         <field_parent_table/>
         <label>Role</label>
         <order>100</order>
+        <parent/>
         <reference display_value="Choice" name="sys_choice">ea5420231b211010e7004229bc4bcbcf</reference>
         <sys_class_name>sn_decision_table_decision_condition</sys_class_name>
         <sys_created_by>John.Schwab</sys_created_by>
