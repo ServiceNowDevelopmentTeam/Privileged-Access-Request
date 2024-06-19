@@ -19,7 +19,7 @@
         <order>10000</order>
         <published_ref/>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
-    if (newValue == '') {
+    if (isLoading || newValue == '') {
         return;
     }
 
@@ -92,7 +92,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>10c19fc41ba274108c5143f3cc4bcba5</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name>Get Requested For's Info and Autofill</sys_name>
         <sys_overrides/>
         <sys_package display_value="Global" source="global">global</sys_package>
@@ -100,7 +100,7 @@
         <sys_scope display_value="Privileged Access Request">3df572701b7d015062e50ed2cd4bcb4c</sys_scope>
         <sys_update_name>catalog_script_client_10c19fc41ba274108c5143f3cc4bcba5</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-06-19 20:34:28</sys_updated_on>
+        <sys_updated_on>2024-06-19 20:17:09</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>10</ui_type>
