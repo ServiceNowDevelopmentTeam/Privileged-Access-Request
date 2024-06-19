@@ -38,7 +38,7 @@
         <label>access response</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Privileged Access Request Flow">b9aacbe91b9789d062e50ed2cd4bcb78</model>
+        <model display_value="REQF - Privileged Access Request - C">b9aacbe91b9789d062e50ed2cd4bcb78</model>
         <model_id>b9aacbe91b9789d062e50ed2cd4bcb78</model_id>
         <model_table>sys_hub_flow</model_table>
         <name>var__m_sys_hub_flow_variable_b9aacbe91b9789d062e50ed2cd4bcb78</name>

@@ -14,7 +14,7 @@
         <description><![CDATA[<p>Examples: Domain Admin, Workstation Admin, or Server Admin</p>]]></description>
         <display_price_property>non_zero</display_price_property>
         <entitlement_script/>
-        <flow_designer_flow display_value="Privileged Access Request Flow">b9aacbe91b9789d062e50ed2cd4bcb78</flow_designer_flow>
+        <flow_designer_flow display_value="REQF - Privileged Access Request - C">b9aacbe91b9789d062e50ed2cd4bcb78</flow_designer_flow>
         <fulfillment_automation_level>unspecified</fulfillment_automation_level>
         <group display_value="AG_Infrastructure-Systems" name="AG_Infrastructure-Systems">b17935531b4b50d0f5a3635bbc4bcbad</group>
         <hide_sp>false</hide_sp>
