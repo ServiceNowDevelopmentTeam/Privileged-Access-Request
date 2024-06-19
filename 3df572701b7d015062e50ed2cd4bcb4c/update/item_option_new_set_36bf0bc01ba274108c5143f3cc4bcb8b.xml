@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new_set">
+    <item_option_new_set action="INSERT_OR_UPDATE">
+        <create_roles/>
+        <description>Requestor, Requested for, approving manager with auto filling aproving based on requested for</description>
+        <display_title>false</display_title>
+        <internal_name>requestor_auto_fill_read_only_func</internal_name>
+        <layout>normal</layout>
+        <name/>
+        <order>100</order>
+        <read_roles/>
+        <set_attributes/>
+        <sys_class_name>item_option_new_set</sys_class_name>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2021-09-07 21:17:10</sys_created_on>
+        <sys_id>36bf0bc01ba274108c5143f3cc4bcb8b</sys_id>
+        <sys_mod_count>33</sys_mod_count>
+        <sys_name>Requestor Auto Fill Read Only Func</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Privileged Access Request">3df572701b7d015062e50ed2cd4bcb4c</sys_scope>
+        <sys_update_name>item_option_new_set_36bf0bc01ba274108c5143f3cc4bcb8b</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-06-19 20:21:07</sys_updated_on>
+        <title>Requestor Auto Fill Read Only Func</title>
+        <type>one_to_one</type>
+        <u_cdw_variables>false</u_cdw_variables>
+        <version>33</version>
+        <write_roles/>
+    </item_option_new_set>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Privileged Access Request">3df572701b7d015062e50ed2cd4bcb4c</claim_owner_scope>
+        <claim_timestamp>190322903920000001</claim_timestamp>
+        <metadata_update_name>item_option_new_set_36bf0bc01ba274108c5143f3cc4bcb8b</metadata_update_name>
+        <previous_claim_app_version>1.1.0</previous_claim_app_version>
+        <previous_claim_name>Privileged Access Request</previous_claim_name>
+        <previous_claim_scope>3df572701b7d015062e50ed2cd4bcb4c</previous_claim_scope>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2024-06-19 20:21:07</sys_created_on>
+        <sys_id>f152d30b1b76461062e50ed2cd4bcbc0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-06-19 20:21:07</sys_updated_on>
+    </sys_claim>
+</record_update>
