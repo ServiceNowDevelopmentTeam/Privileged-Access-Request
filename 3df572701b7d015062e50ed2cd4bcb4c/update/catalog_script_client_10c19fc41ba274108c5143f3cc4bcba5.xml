@@ -19,7 +19,7 @@
         <order>10000</order>
         <published_ref/>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
-    if (isLoading || newValue == '') {
+    if (isLoading || newValue == '' || g_service_catalog.isOrderGuide()) {
         return;
     }
 
@@ -29,61 +29,94 @@
     function populateDeptDetails(reqFor) {
         //ensure that a record exists, then set the value correctly and set permissions correctly
         //if no record exists, then empty the value correctly and set permissions correctly
-		if(reqFor.company != ''){
-			g_form.setValue('user_company', reqFor.company);
-		} else{
-			g_form.setValue('user_company', '');
-		}
-		
-		if(reqFor.email != ''){
-			g_form.setValue('email_address', reqFor.email);
-		} else{
-			g_form.setValue('email_address', '');
-		}
-		if(reqFor.location != ''){
-			g_form.setValue('location_req_for', reqFor.location);
-		}
-		
-		// THIS IS REQUESTED FOR NO REQUESTOR
-		
-		if(reqFor.title != ''){
-			g_form.setValue('requested_for_title', reqFor.title);
-		} else {
-			g_form.setValue('requested_for_title', '');
-		}
+        if (reqFor.company != '') {
+            g_form.setValue('user_company', reqFor.company);
+
+            var ga = new GlideAjax('global.find_payroll');
+            ga.addParam('sysparm_name', 'findERP');
+            ga.addParam('company_id', reqFor.company);
+            ga.getXML(function(response) {
+                var  out = response.responseXML.documentElement.getAttribute("answer");
+				if (out != ''){
+					g_form.setValue('business_system_req_for', out);
+				}
+            });
+			var ga = new GlideAjax('global.find_payroll');
+            ga.addParam('sysparm_name', 'findNum');
+            ga.addParam('company_id', reqFor.company);
+            ga.getXML(function(response) {
+                var  out = response.responseXML.documentElement.getAttribute("answer");
+				if (out != ''){
+					g_form.setValue('business_number_req_for', out);
+				}
+            });
+        } else {
+            g_form.setValue('user_company', '');
+        }
+
+
+
+
+        if (reqFor.email != '') {
+            g_form.setValue('email_address', reqFor.email);
+        } else {
+            g_form.setValue('email_address', '');
+        }
+        if (reqFor.location != '') {
+            g_form.setValue('location_req_for', reqFor.location);
+            var loc = g_form.getReference('location_req_for', locPopulate);
+        }
+        if (reqFor.employee_number != '') {
+            g_form.setValue('employee_number_req_for', reqFor.employee_number);
+        }
+
+
+        // THIS IS REQUESTED FOR NO REQUESTOR
+
+        if (reqFor.title != '') {
+            g_form.setValue('requested_for_title', reqFor.title);
+        } else {
+            g_form.setValue('requested_for_title', '');
+        }
 
         //if manager record is not empty
         if (reqFor.manager != '') {
             g_form.setValue('supervisor', reqFor.manager);
-			if(g_form.getValue('manager_read_only') == 'true'){
-				g_form.setReadOnly('supervisor', true);
-				g_form.setMandatory('supervisor', false);
-			}
+            if (g_form.getValue('manager_read_only') == 'true') {
+                g_form.setReadOnly('supervisor', true);
+                g_form.setMandatory('supervisor', false);
+            }
         } else {
             g_form.setValue('supervisor', '');
-            if(g_form.getValue('manager_read_only') == 'true'){
-				g_form.setReadOnly('supervisor', false);
-				g_form.setMandatory('supervisor', true);
-			}
+            if (g_form.getValue('manager_read_only') == 'true') {
+                g_form.setReadOnly('supervisor', false);
+                g_form.setMandatory('supervisor', true);
+            }
         }
 
         //phone number stuff as well (if its visible!)
-	if (g_form.isMandatory('requestors_phone_number') || g_form.getValue('requestors_phone_number') != '') {
-        if (reqFor.phone != '') {
-            g_form.setValue('requestors_phone_number', reqFor.phone);
-            g_form.setReadOnly('requestors_phone_number', true);
-            g_form.setMandatory('requestors_phone_number', false);
-        } else if (reqFor.mobile_phone != '') {
-            g_form.setValue('requestors_phone_number', reqFor.mobile_phone);
-            g_form.setReadOnly('requestors_phone_number', true);
-            g_form.setMandatory('requestors_phone_number', false);
-        } else {
-            g_form.setValue('requestors_phone_number', '');
-            g_form.setReadOnly('requestors_phone_number', false);
-            g_form.setMandatory('requestors_phone_number', true);
+        if (g_form.isMandatory('requestors_phone_number') || g_form.getValue('requestors_phone_number') != '') {
+            if (reqFor.phone != '') {
+                g_form.setValue('requestors_phone_number', reqFor.phone);
+                g_form.setReadOnly('requestors_phone_number', true);
+                g_form.setMandatory('requestors_phone_number', false);
+            } else if (reqFor.mobile_phone != '') {
+                g_form.setValue('requestors_phone_number', reqFor.mobile_phone);
+                g_form.setReadOnly('requestors_phone_number', true);
+                g_form.setMandatory('requestors_phone_number', false);
+            } else {
+                g_form.setValue('requestors_phone_number', '');
+                g_form.setReadOnly('requestors_phone_number', false);
+                g_form.setMandatory('requestors_phone_number', true);
+            }
         }
     }
-}
+
+    function locPopulate(loc) {
+        if (loc.country != '') {
+            g_form.setValue('country_of_residence_req_for', loc.country);
+        }
+    }
 
 }]]></script>
         <sys_class_name>catalog_script_client</sys_class_name>
@@ -92,7 +125,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>10c19fc41ba274108c5143f3cc4bcba5</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>28</sys_mod_count>
         <sys_name>Get Requested For's Info and Autofill</sys_name>
         <sys_overrides/>
         <sys_package display_value="Global" source="global">global</sys_package>
@@ -100,7 +133,7 @@
         <sys_scope display_value="Privileged Access Request">3df572701b7d015062e50ed2cd4bcb4c</sys_scope>
         <sys_update_name>catalog_script_client_10c19fc41ba274108c5143f3cc4bcba5</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-06-19 20:17:09</sys_updated_on>
+        <sys_updated_on>2024-07-11 14:30:51</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>10</ui_type>
